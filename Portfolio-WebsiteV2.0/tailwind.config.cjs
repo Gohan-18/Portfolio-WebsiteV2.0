@@ -9,6 +9,9 @@ module.exports = {
       fontFamily: {
         catamaran: "'Catamaran', sans-serif;",
         poppins: "'Poppins', sans-serif"
+      },
+      backgroundImage: {
+        'header-banner': "url('./src/assets/Header-Banner.svg')",
       }
     },
   },
