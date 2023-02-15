@@ -11,7 +11,7 @@ module.exports = {
         poppins: "'Poppins', sans-serif"
       },
       backgroundImage: {
-        'header-banner': "url('./src/assets/Header-Banner.svg')",
+        'header-banner': "url('./src/assets/Banner-Dark-Orange.png')",
       }
     },
   },

@@ -21,6 +21,10 @@ a {
   color : #f4f4f4;
 }
 
+.hero-text {
+  text-shadow: 2px 2px 8px #111;
+}
+
 /* @layer base {
   a {
     font-family: 'Catamaran', sans-serif;

@@ -1,4 +1,5 @@
 import "./App.css";
+import "animate.css";
 
 function App() {
   return (
@@ -66,14 +67,20 @@ function App() {
 
       {/* <section> */}
       <main>
-        <section className="h-screen bg-header-banner ">
-          <div className="vertical-center pt-24">
-            <h2>Hey there, Welcome to my portfolio website.</h2>
-            <h3>
-              I'm Prabhat, an aspiring web developer who loves to code and make
-              web apps.{" "}
+        <section className="z-10 h-screen w-screen  bg-no-repeat">
+          <div className="flex h-full w-1/2 flex-col items-center justify-start px-10 pt-24 ">
+            <h2 className="hero-text pt-20 pb-5 font-catamaran text-4xl font-black uppercase text-white shadow-black drop-shadow-lg">
+              Hey there,<br></br> Welcome to my portfolio website.
+            </h2>
+            <h3 className=" animate__animated animate__pulse  pb-5 font-poppins text-lg font-bold capitalize leading-6 text-indigo-800 ">
+              I'm {" "}
+              <span className="animate__animated animate__pulse text-orange-400 underline">
+                Prabhat
+              </span>{" "}
+              , a Full-Stack MERN web developer with experties in Front-End
+              webapp development.
             </h3>
-            <h3>
+            <h3 className="font-poppins text-lg font-bold capitalize leading-6 text-indigo-800">
               This website holds information about my web development journey
               and the projects i have made till now.
             </h3>
@@ -90,3 +97,6 @@ function App() {
 }
 
 export default App;
+
+
+// bg-gradient-to-r from-white to-orange-500
