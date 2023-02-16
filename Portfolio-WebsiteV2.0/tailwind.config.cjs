@@ -12,7 +12,11 @@ module.exports = {
       },
       backgroundImage: {
         'header-banner': "url('./src/assets/White-BG-1.svg')",
-      }
+      },
+      colors: {
+        'blue': '#4e44ab',
+        // 'orange': '#fb923c',
+      },
     },
   },
   plugins: [],

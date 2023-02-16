@@ -13,6 +13,7 @@
 
 body {
   background-color: #f4f4f4;
+  /* background-color: #1f1a4d; */
   /* background-color: #f4f4f4; */
 }
 
@@ -20,6 +21,16 @@ body {
   height : 100px;
   background-color: #4e44ab;
   /* background-color: #2c3c85; */
+}
+
+.blue-space {
+  height : 100px;
+  background-color: #4e44ab;
+}
+
+.white-space {
+  height : 100px;
+  background-color: #f4f4f4;
 }
 
 .bg-blue {
