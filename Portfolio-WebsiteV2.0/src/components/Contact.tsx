@@ -8,7 +8,7 @@ const Contact = () => {
           <h3 className="animate__animated animate__fadeInDown pt-4 pb-5 font-catamaran text-3xl font-extrabold uppercase leading-3 text-wht">
             Contact
           </h3>
-          <p className="animate__animated animate__fadeIn animate__delay-1s h-full w-full rounded-xl bg-gray-300">
+          <p className="animate__animated animate__fadeIn max-w-4xl animate__delay-1s h-full w-full rounded-xl bg-gray-300">
 
           </p>
         </div>

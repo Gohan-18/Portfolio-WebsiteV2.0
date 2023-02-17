@@ -5,8 +5,8 @@ import { useNavigate } from "react-router-dom";
 function Navbar() {
 
   // const navigate = useNavigate()
-  // const address = window.location.href.split('/')
-  // const [currItem, setCurrItem] = useState(address[3]);
+  // let address = window.location.href.split('/')
+  // const [currItem, setCurrItem] = useState('');
 
   // console.log(currItem)
 
@@ -31,7 +31,7 @@ function Navbar() {
                   <Link
                     to={`/${item}`}
                     // href={`#${item}`}
-                    // onClick={() => navigate(`/${item}`)}
+                    // onClick={() => setCurrItem(`${item}`)}
                     id="homeBtn"
                     className="cursor-pointer rounded font-poppins text-xs font-medium leading-6 transition-all duration-500  hover:bg-white hover:px-1.5 hover:py-0.5 hover:text-sm hover:font-semibold hover:text-indigo-800 "
                   >

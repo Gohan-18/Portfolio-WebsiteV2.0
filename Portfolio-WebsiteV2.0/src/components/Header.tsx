@@ -20,7 +20,7 @@ const Header = () => {
             </h2>
           </div>
           <h3 className="animate__animated  animate__fadeInDown animate__delay-1s pb-5 font-poppins text-lg font-bold capitalize leading-6 text-white">
-            I'm <span className="text-amber-400 underline">Prabhat</span> , a
+            I'm <span className="text-orange-400 underline">Prabhat</span> , a
             Full-Stack MERN web developer with experties in Front-End webapp
             development.
           </h3>

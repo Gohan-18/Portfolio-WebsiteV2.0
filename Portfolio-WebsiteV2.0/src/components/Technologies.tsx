@@ -20,8 +20,8 @@ const Technologies = () => {
           <h3 className="animate__animated animate__fadeInDown pt-4 pb-5 font-catamaran text-3xl font-extrabold uppercase leading-3 text-indigo-800">
             Technologies
           </h3>
-          <div className="animate__animated animate__fadeIn animate__delay-1s flex h-full w-full flex-wrap items-center justify-center rounded-xl bg-gray-300 p-8">
-            <div className="grid w-1/2 grid-cols-3 grid-rows-4 items-center justify-center gap-6 border-r-4 py-10 border-white px-20">
+          <div className="animate__animated animate__fadeIn max-w-4xl animate__delay-1s flex h-full w-full flex-wrap items-center justify-center rounded-xl bg-gray-300 p-8">
+            <div className="animate__animated animate__fadeIn animate__delay-1s grid w-1/2 grid-cols-3 grid-rows-4 items-center justify-center gap-6 border-r-4 py-10 border-white px-20">
               <GrReactjs
                 style={{
                   fontSize: "60px",
@@ -134,7 +134,7 @@ const Technologies = () => {
             </div>
 
             <div className="w-1/2">
-                <p className=" h-full w-full rounded-xl bg-gray-300 p-8 text-center font-poppins font-semibold capitalize text-slate-600">
+                <p className="animate__animated animate__fadeIn animate__delay-1s h-full w-full rounded-xl bg-gray-300 p-8 text-center font-poppins font-semibold capitalize text-slate-600">
                     Hey there what is up
                 </p>
             </div>
