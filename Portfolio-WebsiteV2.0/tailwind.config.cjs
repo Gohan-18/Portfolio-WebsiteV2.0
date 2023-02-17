@@ -15,8 +15,12 @@ module.exports = {
       },
       colors: {
         'blue': '#4e44ab',
+        'wht': '#f4f4f4'
         // 'orange': '#fb923c',
       },
+      fontSize: {
+        'icons' : '60px'
+      }
     },
   },
   plugins: [],

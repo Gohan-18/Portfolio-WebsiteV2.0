@@ -4,8 +4,8 @@ import Navbar from "./components/Navbar.jsx";
 import Header from "./components/Header";
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from "react-router-dom";
 import Home from "./pages/Home";
-import About from "./components/About";
 import Layout from "./components/Layout";
+import { About, Technologies, Projects, Contact } from './components/exports';
 
 function App() {
 
@@ -13,9 +13,17 @@ function App() {
     createRoutesFromElements(
       <Route path="/" element={<Layout />}>
         <Route index element={<Home/>} />
-        {/* <Route path='Home' element={<Home/>} /> */}
-        <Route path="About" element={<About />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Technologies" element={<Technologies />} />
+        <Route path="/Projects" element={<Projects />} />
+        <Route path="/Contact" element={<Contact />} />
       </Route>
+      // <>
+      //   <Route path="/" element={<Layout />}>
+      //     <Route index element={<Home/>} />
+      //   </Route>
+      //   <Route path="#About" element={<About />}/>
+      // </>
     )
   );
 
