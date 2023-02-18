@@ -6,8 +6,18 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } 
 import Home from "./pages/Home";
 import Layout from "./components/Layout";
 import { About, Technologies, Projects, Contact } from './components/exports';
+import { createContext, useState } from "react";
+
+type filterProps = {
+  activeFilter : string,
+  setActiveFilter: any
+}
+
+export const AppContext = createContext<Partial<filterProps>>({})
 
 function App() {
+
+  const [activeFilter, setActiveFilter] = useState("");
 
   const router = createBrowserRouter(
     createRoutesFromElements(
@@ -29,38 +39,9 @@ function App() {
 
   return (
     <>
-      <RouterProvider router={router} />
-      {/* <Navbar /> */}
-      {/* <section> */}
-      {/* <main> */}
-        {/* <Header /> */}
-
-        {/* <div id="About"></div>
-          <div className="item-center flex h-screen w-full flex-col items-center justify-center py-20 px-40">
-            <h2 className="animate__animated animate__pulse pt-4 font-catamaran text-3xl font-extrabold uppercase leading-3 text-indigo-800 pb-5">
-              About
-            </h2>
-            <p className="h-full w-full rounded-xl bg-gray-300"></p>
-          </div> */}
-
-        {/* <div id="Technologies"></div>
-          <div className="item-center flex h-screen w-full justify-center bg-blue pt-24">
-            <h2 className="animate__animated animate__pulse pt-4 font-catamaran text-3xl font-extrabold uppercase leading-3  text-white">
-              Technologies
-            </h2>
-          </div>
-          <div id="Projects" ></div>
-          <div className="item-center flex h-screen w-full justify-center pt-24">
-            <h2 className="animate__animated animate__pulse pt-4 font-catamaran text-3xl font-extrabold uppercase leading-3  text-indigo-800">
-              Projects
-            </h2>
-          </div> */}
-      {/* </main> */}
-      {/* </section> */}
-
-      {/* <section>
-        <footer></footer>
-      </section> */}
+      <AppContext.Provider value = {{activeFilter, setActiveFilter}} >
+        <RouterProvider router={router} />
+      </AppContext.Provider>
     </>
   );
 }

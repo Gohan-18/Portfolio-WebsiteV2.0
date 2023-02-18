@@ -13,6 +13,7 @@ module.exports = {
       backgroundImage: {
         'header-banner': "url('./src/assets/White-BG-1.svg')",
         'dark-header-banner': "url('./src/assets/BG_Blue_Dark.svg')",
+        'light-dark-header-banner': "url('./src/assets/Light-Dark-Blue.svg')",
       },
       colors: {
         'blue': '#4e44ab',

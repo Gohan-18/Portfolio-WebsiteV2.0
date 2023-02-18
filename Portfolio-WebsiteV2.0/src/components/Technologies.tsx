@@ -20,8 +20,8 @@ const Technologies = () => {
           <h3 className="animate__animated animate__fadeInDown pt-4 pb-5 font-catamaran text-3xl font-extrabold uppercase leading-3 text-indigo-800">
             Technologies
           </h3>
-          <div className="animate__animated animate__fadeIn max-w-4xl animate__delay-1s flex h-full w-full flex-wrap items-center justify-center rounded-xl bg-gray-300 p-8">
-            <div className="animate__animated animate__fadeIn animate__delay-1s grid w-1/2 grid-cols-3 grid-rows-4 items-center justify-center gap-6 border-r-4 py-10 border-white px-20">
+          <div className="animate__animated animate__fadeIn animate__delay-1s flex h-full w-full max-w-4xl flex-wrap items-center justify-center rounded-xl  border-indigo-800 bg-gray-300 p-8">
+            <div className="animate__animated animate__fadeIn animate__delay-1s  grid w-1/2 grid-cols-3 grid-rows-4 items-center justify-center gap-6 border-r-4 border-indigo-800 py-10 px-20">
               <GrReactjs
                 style={{
                   fontSize: "60px",
@@ -129,14 +129,24 @@ const Technologies = () => {
                   padding: "14px",
                   borderRadius: "10px",
                 }}
-                title='Vite'
+                title="Vite"
               />
             </div>
 
             <div className="w-1/2">
-                <p className="animate__animated animate__fadeIn animate__delay-1s h-full w-full rounded-xl bg-gray-300 p-8 text-center font-poppins font-semibold capitalize text-slate-600">
-                    Hey there what is up
-                </p>
+              <p className="animate__animated animate__fadeIn animate__delay-1s h-full w-full rounded-xl bg-gray-300 p-8 text-start font-poppins font-semibold capitalize text-slate-600">
+                - Apart from the listed technologies, i am also well efficient
+                in working with{" "}
+                <span className="font-semibold text-orange-600">ExpressJs</span>{" "}
+                and{" "}
+                <span className="font-semibold text-orange-600">MongoDB</span>{" "}
+                for creating backend for webApps. <br />- I can convert UI
+                mockups from{" "}
+                <span className="font-semibold text-orange-600">
+                  Figma/sketch
+                </span>{" "}
+                to the front-End of your webApp using mentioned tools.
+              </p>
             </div>
           </div>
         </div>

@@ -3,20 +3,23 @@ import React from "react";
 const Header = () => {
   return (
     <>
-      <section className="z-5 flex h-screen w-full flex-wrap bg-header-banner bg-no-repeat px-10 animate__animated animate__fadeIn">
+      <section className="z-5 animate__animated animate__fadeIn flex h-screen w-full flex-wrap bg-light-dark-header-banner bg-no-repeat px-10">
         <div
           // id="Home"
           className="flex-1 pt-24"
         >
           <div className="animate__animated animate__fadeInDown">
             <h2 className="hero-text pt-20 pr-16 font-catamaran text-4xl font-black uppercase leading-10 text-white shadow-black drop-shadow-lg">
-              Hey there ,
+              Hello world ,
             </h2>
-            <h2 className="hero-text font-catamaran text-4xl font-black uppercase leading-10 text-white shadow-black drop-shadow-lg">
+            {/* <h2 className=" line-throug w-fit pt-16 font-poppins text-sm font-medium uppercase leading-6 text-orange-400 shadow-black drop-shadow-lg">
+              {`< Hello world />`}
+            </h2> */}
+            <h2 className="hero-text mt-1 w-fit border-t-2 pt-2 font-catamaran text-4xl font-black uppercase leading-10 text-white shadow-black drop-shadow-lg">
               Welcome to my
             </h2>
             <h2 className="hero-text pb-5 font-catamaran text-4xl font-black uppercase leading-10 text-white shadow-black drop-shadow-lg">
-              portfolio website .
+              portfolio website.
             </h2>
           </div>
           <h3 className="animate__animated  animate__fadeInDown animate__delay-1s pb-5 font-poppins text-lg font-bold capitalize leading-6 text-white">
