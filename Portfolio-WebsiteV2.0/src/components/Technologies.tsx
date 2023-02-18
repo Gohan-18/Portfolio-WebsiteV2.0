@@ -22,126 +22,82 @@ const Technologies = () => {
           </h3>
           <div className="animate__animated animate__fadeIn animate__delay-1s flex h-full w-full max-w-4xl flex-wrap items-center justify-center rounded-xl  border-indigo-800 bg-gray-300 p-8">
             <div className="animate__animated animate__fadeIn animate__delay-1s  grid w-1/2 grid-cols-3 grid-rows-4 items-center justify-center gap-6 border-r-4 border-indigo-800 py-10 px-20">
-              <GrReactjs
-                style={{
-                  fontSize: "60px",
-                  fill: "#f4f4f4",
-                  backgroundColor: "#4e44ab",
-                  padding: "14px",
-                  borderRadius: "10px",
-                }}
-              />
+              <div className="group relative w-fit ">
+                <GrReactjs
+                  title="React"
+                  className=" cursor-pointer rounded-lg bg-blue fill-wht p-3 text-5xl transition-all duration-500 hover:scale-125 hover:bg-orange-600 hover:drop-shadow-2xl"
+                  // style={{
+                  //   cursor: 'pointer',
+                  //   fontSize: "60px",
+                  //   fill: "#f4f4f4",
+                  //   backgroundColor: "#4e44ab",
+                  //   padding: "14px",
+                  //   borderRadius: "10px",
+                  // }}
+                />
+                <p className="font-base absolute -bottom-1 left-2/4 -ml-4 font-poppins text-xs text-wht opacity-0 transition-all duration-500 ease-in group-hover:opacity-100">
+                  React
+                </p>
+              </div>
               <DiJavascript1
-                style={{
-                  fontSize: "60px",
-                  fill: "#f4f4f4",
-                  backgroundColor: "#4e44ab",
-                  padding: "14px",
-                  borderRadius: "10px",
-                }}
+                title="JavaScript"
+                className="cursor-pointer rounded-lg bg-blue fill-wht p-3 text-5xl transition-all duration-500 hover:scale-110 hover:bg-orange-600"
               />
               <SiTypescript
-                style={{
-                  fontSize: "60px",
-                  fill: "#f4f4f4",
-                  backgroundColor: "#4e44ab",
-                  padding: "14px",
-                  borderRadius: "10px",
-                }}
+                title="TypeScript"
+                className="cursor-pointer rounded-lg bg-blue fill-wht p-3 text-5xl transition-all duration-500 hover:scale-110 hover:bg-orange-600"
               />
               <SiRedux
-                style={{
-                  fontSize: "60px",
-                  fill: "#f4f4f4",
-                  backgroundColor: "#4e44ab",
-                  padding: "14px",
-                  borderRadius: "10px",
-                }}
+                title="Redux-Toolkit"
+                className="cursor-pointer rounded-lg bg-blue fill-wht p-3 text-5xl transition-all duration-500 hover:scale-110 hover:bg-orange-600"
               />
               <DiNodejs
-                style={{
-                  fontSize: "60px",
-                  fill: "#f4f4f4",
-                  backgroundColor: "#4e44ab",
-                  padding: "14px",
-                  borderRadius: "10px",
-                }}
+                title="NodeJs"
+                className="cursor-pointer rounded-lg bg-blue fill-wht p-3 text-5xl transition-all duration-500 hover:scale-110 hover:bg-orange-600"
               />
               <SiMaterialui
-                style={{
-                  fontSize: "60px",
-                  fill: "#f4f4f4",
-                  backgroundColor: "#4e44ab",
-                  padding: "14px",
-                  borderRadius: "10px",
-                }}
+                title="Material Ui v5"
+                className="cursor-pointer rounded-lg bg-blue fill-wht p-3 text-5xl transition-all duration-500 hover:scale-110 hover:bg-orange-600"
               />
               <SiTailwindcss
-                style={{
-                  fontSize: "60px",
-                  fill: "#f4f4f4",
-                  backgroundColor: "#4e44ab",
-                  padding: "14px",
-                  borderRadius: "10px",
-                }}
+                title="Tailwind CSS"
+                className="cursor-pointer rounded-lg bg-blue fill-wht p-3 text-5xl transition-all duration-500 hover:scale-110 hover:bg-orange-600"
               />
               <SiStyledcomponents
-                style={{
-                  fontSize: "60px",
-                  fill: "#f4f4f4",
-                  backgroundColor: "#4e44ab",
-                  padding: "14px",
-                  borderRadius: "10px",
-                }}
+                title="Styled Components"
+                className="cursor-pointer rounded-lg bg-blue fill-wht p-3 text-5xl transition-all duration-500 hover:scale-110 hover:bg-orange-600"
               />
               <DiHtml5
-                style={{
-                  fontSize: "60px",
-                  fill: "#f4f4f4",
-                  backgroundColor: "#4e44ab",
-                  padding: "14px",
-                  borderRadius: "10px",
-                }}
+                title="HTML5"
+                className="cursor-pointer rounded-lg bg-blue fill-wht p-3 text-5xl transition-all duration-500 hover:scale-110 hover:bg-orange-600"
               />
               <DiCss3
-                style={{
-                  fontSize: "60px",
-                  fill: "#f4f4f4",
-                  backgroundColor: "#4e44ab",
-                  padding: "14px",
-                  borderRadius: "10px",
-                }}
+                title="CSS3"
+                className="cursor-pointer rounded-lg bg-blue fill-wht p-3 text-5xl transition-all duration-500 hover:scale-110 hover:bg-orange-600"
               />
               <SiVite
-                style={{
-                  fontSize: "60px",
-                  fill: "#f4f4f4",
-                  backgroundColor: "#4e44ab",
-                  padding: "14px",
-                  borderRadius: "10px",
-                }}
+                title="Vite"
+                className="cursor-pointer rounded-lg bg-blue fill-wht p-3 text-5xl transition-all duration-500 hover:scale-110 hover:bg-orange-600"
               />
               <IoLogoFirebase
-                style={{
-                  fontSize: "60px",
-                  fill: "#f4f4f4",
-                  backgroundColor: "#4e44ab",
-                  padding: "14px",
-                  borderRadius: "10px",
-                }}
-                title="Vite"
+                title="Firebase"
+                className="cursor-pointer rounded-lg bg-blue fill-wht p-3 text-5xl transition-all duration-500 hover:scale-110 hover:bg-orange-600"
               />
             </div>
 
             <div className="w-1/2">
               <p className="animate__animated animate__fadeIn animate__delay-1s h-full w-full rounded-xl bg-gray-300 p-8 text-start font-poppins font-semibold capitalize text-slate-600">
-                - Apart from the listed technologies, i am also well efficient
-                in working with{" "}
-                <span className="font-semibold text-orange-600">ExpressJs</span>{" "}
+                - These are the tech stacks i have worked on and am comfortable
+                in working with. <br />
+                <br />- Apart from the listed technologies, i am also well
+                efficient in working with{" "}
+                <span className="font-semibold text-orange-600">
+                  ExpressJs
+                </span>{" "}
                 and{" "}
                 <span className="font-semibold text-orange-600">MongoDB</span>{" "}
-                for creating backend for webApps. <br />- I can convert UI
-                mockups from{" "}
+                for creating backend for webApps. <br /> <br /> - I can convert
+                UI mockups from{" "}
                 <span className="font-semibold text-orange-600">
                   Figma/sketch
                 </span>{" "}
