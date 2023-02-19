@@ -49,6 +49,15 @@ const Projects = () => {
                       </span>
                     ))}
                   </div>
+
+                  {/* <div className="flex gap-2 pt-5" >
+                    <button>
+                      Live Project
+                    </button>
+                    <button>
+                      View Source
+                    </button>
+                  </div> */}
                 </div>
               </div>
             );
