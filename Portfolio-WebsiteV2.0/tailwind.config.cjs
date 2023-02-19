@@ -21,7 +21,9 @@ module.exports = {
         // 'orange': '#fb923c',
       },
       fontSize: {
-        'icons' : '60px'
+        'icons' : '60px',
+        'xxs' : '9px',
+        'xxxs': '9px'
       }
     },
   },
