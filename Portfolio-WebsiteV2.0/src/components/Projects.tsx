@@ -22,7 +22,7 @@ const Projects = () => {
             return (
               <div
                 key={item.title}
-                className="animate__animated animate__fadeIn animate__delay-1s flex w-full max-w-4xl items-start justify-start gap-6 rounded-xl border-blue bg-gray-300 py-10 px-10 odd:border-r-4 even:border-l-4"
+                className="animate__animated animate__fadeIn animate__delay-1s flex w-full max-w-4xl items-start justify-start gap-6 rounded-xl border-blue bg-gray-300 py-10 px-10 even:flex-row-reverse odd:border-r-4 even:border-l-4"
               >
 
                 <div className="flex items-center justify-center bg-wht h-full w-full flex-1">
