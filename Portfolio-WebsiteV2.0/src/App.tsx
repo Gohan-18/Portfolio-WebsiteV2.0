@@ -18,6 +18,9 @@ export const AppContext = createContext<Partial<filterProps>>({})
 function App() {
 
   const [activeFilter, setActiveFilter] = useState("");
+  // let [urlAdd, setUrlAdd] = useState(window.location.href)
+
+  // console.log(urlAdd)
 
   const router = createBrowserRouter(
     createRoutesFromElements(

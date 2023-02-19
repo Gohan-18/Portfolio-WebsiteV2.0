@@ -1,6 +1,14 @@
-import React from 'react'
+import { useContext, useEffect } from "react";
+import { AppContext } from "../App";
 
 const Contact = () => {
+
+  const { setActiveFilter } = useContext(AppContext)
+
+  useEffect(() => {
+    setActiveFilter('Contact')
+  }, [])
+
   return (
     <>
       <section className="z-5 flex h-screen w-full flex-col items-center justify-center pt-24 pb-12 px-28 ">

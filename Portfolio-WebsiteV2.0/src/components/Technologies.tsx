@@ -1,4 +1,5 @@
-import React from "react";
+import { useContext, useEffect } from "react";
+import { AppContext } from "../App";
 import { GrReactjs } from "react-icons/gr";
 import { SiRedux } from "react-icons/si";
 import { DiJavascript1 } from "react-icons/di";
@@ -13,6 +14,13 @@ import { SiVite } from "react-icons/si";
 import { IoLogoFirebase } from "react-icons/io5";
 
 const Technologies = () => {
+
+  const { setActiveFilter } = useContext(AppContext)
+
+  useEffect(() => {
+    setActiveFilter('Technologies')
+  }, [])
+
   return (
     <>
       <section className="z-5 flex h-screen w-full flex-col items-center justify-center bg-wht px-28 pt-24 pb-12 ">

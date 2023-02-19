@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { AppContext } from "../App";
 
@@ -9,8 +9,11 @@ import { AppContext } from "../App";
 
 const About = () => {
 
-  const { activeFilter, setActiveFilter } = useContext(AppContext)
+  const { setActiveFilter } = useContext(AppContext)
   // console.log(activeFilter)
+  useEffect(() => {
+    setActiveFilter('About')
+  }, [])
 
   return (
     <>
@@ -50,7 +53,7 @@ const About = () => {
               currently I am looking for front-End opportunities (preferably around React tech stack). so if you are looking for someone with mentioned tech skill, {" "}
               <Link
                 onClick={() => setActiveFilter('Contact')}
-                className="rounded border-2 border-blue px-1.5 py-0.5 font-poppins text-sm font-semibold leading-6 text-blue transition-all duration-500 hover:border-slate-100 hover:bg-slate-100 hover:text-indigo-800 "
+                className="rounded border-2 border-blue bg-blue px-1.5 py-0.5 font-poppins text-sm font-semibold  text-wht transition-all duration-500 hover:border-slate-100 hover:bg-slate-100 hover:text-indigo-800 "
                 to={"/Contact"}
               >
                 Contact Me
