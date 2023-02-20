@@ -25,8 +25,8 @@ const Technologies = () => {
     <>
       <section className="z-5 flex h-screen w-full flex-col items-center justify-center bg-wht px-28 pt-24 pb-12 ">
         <div className=" flex flex-Wrap h-full w-full flex-col items-center justify-center">
-          <h3 className="animate__animated animate__fadeInDown pt-4 pb-5 font-catamaran text-3xl font-extrabold uppercase leading-3 text-indigo-800">
-            Technologies
+          <h3 className="animate__animated animate__fadeInDown text-center pt-2 pb-5 font-catamaran text-3xl font-extrabold uppercase leading-3 text-indigo-800">
+          {`< Technologies />`}
           </h3>
           <div className="animate__animated animate__fadeIn animate__delay-1s flex h-full w-full max-w-4xl flex-wrap items-center justify-center rounded-xl  border-indigo-800 bg-gray-300 p-8">
             <div className="animate__animated animate__fadeIn animate__delay-1s  grid w-1/2 grid-cols-3 grid-rows-4 items-center justify-center gap-6 border-r-4 border-indigo-800 py-10 px-20">
@@ -143,9 +143,9 @@ const Technologies = () => {
 
             <div className="w-1/2">
               <p className="animate__animated animate__fadeIn animate__delay-1s h-full w-full rounded-xl bg-gray-300 p-8 text-start font-poppins font-semibold capitalize text-slate-600">
-                - These are the tech stacks i have worked on and am comfortable
+                - These are the tech stacks i have worked on and am proficient
                 in working with. <br />
-                <br />- Apart from the listed technologies, i am also well
+                <br />- Apart from the listed technologies, i'm also well
                 efficient in working with{" "}
                 <span className="font-semibold text-orange-600">
                   ExpressJs

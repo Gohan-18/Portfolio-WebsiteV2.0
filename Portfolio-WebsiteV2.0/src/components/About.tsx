@@ -19,8 +19,8 @@ const About = () => {
     <>
       <section className="z-5 flex h-screen w-full flex-col items-center justify-center bg-wht px-28 pt-24 pb-12 leading-6">
         <div className=" flex h-full w-full flex-col items-center justify-center">
-          <h3 className="animate__animated animate__fadeInDown pt-4 pb-5 font-catamaran text-3xl font-extrabold uppercase leading-3 text-indigo-800">
-            About
+          <h3 className="animate__animated animate__fadeInDown pt-2 pb-5 text-center font-catamaran text-3xl font-extrabold uppercase leading-3 text-indigo-800">
+            {`< About />`}
           </h3>
           <div className="animate__animated animate__fadeIn animate__delay-1s flex h-full w-full max-w-4xl flex-col items-center justify-center rounded-xl border-l-4 border-r-4 border-indigo-800 bg-gray-300 px-10 pb-4">
             <p className="max-w-xl text-center font-poppins font-medium capitalize text-slate-700 ">

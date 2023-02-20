@@ -17,7 +17,8 @@ module.exports = {
       },
       colors: {
         'blue': '#4e44ab',
-        'wht': '#f4f4f4'
+        'wht': '#f4f4f4',
+        'dark-blue': '#2d2672'
         // 'orange': '#fb923c',
       },
       fontSize: {

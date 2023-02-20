@@ -14,8 +14,8 @@ const Projects = () => {
     <>
       <section className="z-5 flex w-full flex-col items-center justify-center bg-wht px-4 pt-24 pb-12 sm:px-10 md:px-14 ">
         <div className=" flex h-full w-full flex-col items-center justify-center gap-5">
-          <h3 className="animate__animated animate__fadeInDown pt-4 font-catamaran text-3xl font-extrabold uppercase leading-3 text-indigo-800">
-            Projects
+          <h3 className="animate__animated animate__fadeInDown pt-2 text-center font-catamaran text-3xl font-extrabold uppercase leading-3 text-indigo-800">
+            {`< Projects />`}
           </h3>
           {projects.map((item) => {
             return (
@@ -29,9 +29,13 @@ const Projects = () => {
                 </div>
 
                 <div className="flex flex-1 flex-col items-start justify-center gap-1 ">
-                  <h4 className="font-poppins text-base font-semibold text-slate-700 sm:text-lg">
+                  <a
+                    href={item.liveLink}
+                    target="_blank"
+                    className="font-poppins text-base font-semibold text-slate-700 transition-all duration-300 hover:text-orange-600 sm:text-lg "
+                  >
                     {item.title}{" "}
-                  </h4>
+                  </a>
                   <span className=" pb-1 font-poppins text-xs font-medium text-blue">
                     {item.date}
                   </span>
@@ -40,13 +44,15 @@ const Projects = () => {
                   </h4>
                   <div className="flex w-full flex-wrap items-center justify-start gap-2 pt-5 ">
                     {item.techStack.map((tech, index) => (
-                      <span
+                      <a
+                        href={`https://www.google.com/search?q=${tech}`}
+                        target="_blank"
                         key={index}
                         className="cursor-pointer rounded-sm bg-blue px-1.5 py-0.5 font-poppins text-xs font-medium text-wht transition-all duration-300 hover:bg-orange-600 sm:rounded sm:text-sm sm:font-semibold"
                       >
                         {" "}
                         {tech}{" "}
-                      </span>
+                      </a>
                     ))}
                   </div>
 
