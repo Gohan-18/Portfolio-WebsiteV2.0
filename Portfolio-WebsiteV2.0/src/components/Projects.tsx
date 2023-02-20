@@ -21,7 +21,7 @@ const Projects = () => {
             return (
               <div
                 key={item.title}
-                className="animate__animated animate__fadeIn animate__delay-1s flex w-full max-w-4xl flex-wrap items-start justify-start gap-6 border-orange-600 rounded transition-all duration-500  md:border-blue bg-wht md:bg-gray-300 py-6 px-4 odd:border-r-4 even:flex-row-reverse even:border-l-4 md:rounded-xl sm:px-10 sm:py-10"
+                className="animate__animated animate__fadeIn animate__delay-1s flex w-full max-w-4xl flex-wrap items-start justify-start gap-6 border-orange-600 rounded transition-all duration-500  md:border-blue bg-wht md:bg-gray-300 py-6 px-4 odd:border-r-4 even:flex-row-reverse even:border-l-4 md:rounded-xl md:px-10 md:py-10"
               >
                 <div className="flex h-full w-full items-center justify-center bg-wht lg:w-3/6">
                   {/* <h4 className="h-full w-full bg-wht p-20 font-poppins text-lg font-semibold text-slate-700 "></h4> */}
