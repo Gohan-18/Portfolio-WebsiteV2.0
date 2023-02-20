@@ -28,7 +28,7 @@ const Contact = () => {
     <>
       <section className="z-5 flex h-screen w-full flex-col items-center justify-center bg-dark-blue px-4 pt-24 pb-12 transition-all duration-500 sm:px-10 md:bg-wht md:px-14 ">
         <div className=" flex h-full w-full flex-col items-center justify-center">
-          <h3 className="animate__animated animate__fadeInDown pt-2 pb-5 text-center font-catamaran text-3xl font-extrabold uppercase leading-3 text-wht transition-all duration-500 md:text-dark-blue">
+          <h3 className="animate__animated animate__fadeInDown pt-2 pb-5 text-center font-catamaran text-2xl sm:text-3xl font-extrabold uppercase leading-3 text-wht transition-all duration-500 md:text-dark-blue">
             {`< Contact />`}
           </h3>
           <div className="animate__animated animate__fadeIn animate__delay-1s flex h-fit w-full max-w-4xl flex-col items-center justify-center rounded-md bg-dark-blue py-6 px-4 transition-all duration-500 sm:rounded-xl sm:px-10 sm:py-10 md:h-full">

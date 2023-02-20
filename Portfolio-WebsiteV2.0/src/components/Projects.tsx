@@ -14,7 +14,7 @@ const Projects = () => {
     <>
       <section className="z-5 flex w-full transition-all duration-500 flex-col items-center justify-center bg-dark-blue md:bg-wht px-4 -24 pb-12 sm:px-10 md:px-14 ">
         <div className=" flex h-full w-full flex-col items-center justify-center mt-24 gap-5">
-          <h3 className="animate__animated animate__fadeInDown pt-2 text-center font-catamaran text-3xl font-extrabold uppercase text-wht leading-3 md:text-indigo-800">
+          <h3 className="animate__animated animate__fadeInDown pt-2 text-center font-catamaran text-2xl sm:text-3xl font-extrabold uppercase text-wht leading-3 md:text-indigo-800">
             {`< Projects />`}
           </h3>
           {projects.map((item) => {
