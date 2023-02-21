@@ -23,24 +23,24 @@ const Technologies = () => {
   return (
     <>
       {/* <section className="z-5 flex  w-full flex-col items-center justify-center bg-wht px-28 pt-24 pb-12  "> */}
-      <section className="z-5 lg:h-screen pt-24 flex w-full items-center justify-center bg-dark-blue px-4 pb-12 transition-all duration-500 sm:px-10 md:bg-wht md:px-14 ">
+      <section className="z-5 flex w-full items-center justify-center bg-dark-blue px-4 pt-24 pb-12 transition-all duration-500 sm:px-10 md:bg-wht md:px-14 lg:h-screen ">
         <div className=" flex-Wrap flex h-full w-full flex-col items-center justify-center ">
-          <h3 className="animate__animated animate__fadeInDown pt-2 pb-5 text-center font-catamaran text-2xl sm:text-3xl font-extrabold uppercase leading-3 text-wht md:text-indigo-800">
+          <h3 className="animate__animated animate__fadeInDown pt-2 pb-5 text-center font-catamaran text-2xl font-extrabold uppercase leading-3 text-wht sm:text-3xl md:text-indigo-800">
             {`< Technologies />`}
           </h3>
 
           {/* <div className="animate__animated animate__fadeIn animate__delay-1s flex h-full w-full max-w-4xl flex-wrap flex-col items-center justify-center rounded-xl  border-indigo-800 bg-gray-300 p-8"> */}
           <div className="animate__animated animate__fadeIn animate__delay-1s flex h-full w-full max-w-4xl  flex-col  items-center justify-center gap-1 rounded bg-wht py-6 px-4 text-sm transition-all duration-500 sm:text-base md:gap-3 md:rounded-lg md:bg-gray-300 md:px-10 md:py-10 lg:flex-row">
-            <div className="animate__animated animate__fadeIn animate__delay-1s md:w-lg  grid w-full max-w-sm grid-cols-3 grid-rows-4 items-center justify-items-center gap-6 border-b-4 border-indigo-800 pt-4 px-4 lg:w-1/2 lg:border-b-0 lg:border-r-4 pb-7">
-              <div className="group relative flex w-fit items-center justify-center transition-all duration-300">
+            <div className="animate__animated animate__fadeIn animate__delay-1s md:w-lg  grid w-full max-w-sm grid-cols-3 grid-rows-4 items-center justify-items-center gap-6 border-b-4 border-indigo-800 px-4 pt-4 pb-7 lg:w-1/2 lg:border-b-0 lg:border-r-4">
+              <div className="group relative flex w-fit items-start justify-start transition-all duration-300">
                 <GrReactjs className=" cursor-pointer rounded-lg bg-blue fill-wht p-3 text-5xl transition-all duration-300  group-hover:bg-orange-600" />
-                <span className="font-base invisible absolute h-full w-full cursor-pointer rounded-sm bg-orange-600 px-1 py-0.5 font-poppins text-xxs text-wht opacity-0 transition-all duration-300 group-hover:visible group-hover:opacity-100">
+                <span className="font-base invisible absolute h-full w-full cursor-pointer rounded-sm bg-orange-600 px-1 pt-1 font-poppins text-xxs leading-3 text-wht opacity-0 transition-all duration-300 group-hover:visible group-hover:opacity-100">
                   React
                 </span>
               </div>
-              <div className="group relative flex w-fit items-center justify-center transition-all duration-300">
+              <div className="group relative flex h-full w-fit items-start justify-center transition-all duration-300">
                 <DiJavascript1 className="cursor-pointer rounded-lg bg-blue fill-wht p-3 text-5xl transition-all duration-300 hover:scale-110 hover:bg-orange-600" />
-                <span className="font-base invisible absolute h-full w-full cursor-pointer rounded-sm bg-orange-600 px-1 py-0.5 font-poppins text-xxs text-wht opacity-0 transition-all duration-300 group-hover:visible group-hover:opacity-100">
+                <span className="font-base invisible absolute h-full w-full cursor-pointer rounded-sm bg-orange-600 px-1 pt-1 font-poppins text-xxs leading-3 text-wht opacity-0 transition-all duration-300 group-hover:visible group-hover:opacity-100">
                   Javascript
                 </span>
               </div>
@@ -50,17 +50,14 @@ const Technologies = () => {
                   // title="TypeScript"
                   className="cursor-pointer rounded-lg bg-blue fill-wht p-3 text-5xl transition-all duration-300 hover:scale-110 hover:bg-orange-600"
                 />
-                <span className="font-base invisible absolute h-full w-full cursor-pointer rounded-sm bg-orange-600 px-1 py-0.5 font-poppins text-xxs text-wht opacity-0 transition-all duration-300 group-hover:visible group-hover:opacity-100">
+                <span className="font-base invisible absolute h-full w-full cursor-pointer rounded-sm bg-orange-600 px-1 pt-1 font-poppins text-xxs leading-3 text-wht opacity-0 transition-all duration-300 group-hover:visible group-hover:opacity-100">
                   Typescript
                 </span>
               </div>
 
-              <div className="group relative flex w-fit items-center justify-center transition-all duration-300">
-                <SiRedux
-                  // title="Redux-Toolkit"
-                  className="cursor-pointer rounded-lg bg-blue fill-wht p-3 text-5xl transition-all duration-300 hover:scale-110 hover:bg-orange-600"
-                />
-                <span className="font-base invisible absolute h-full w-full cursor-pointer rounded-sm bg-orange-600 px-1 py-0.5 font-poppins text-xxs text-wht opacity-0 transition-all duration-300 group-hover:visible group-hover:opacity-100">
+              <div className="group relative flex h-fit w-fit items-start justify-start transition-all duration-300">
+                <SiRedux className="cursor-pointer rounded-lg bg-blue fill-wht p-3 text-5xl transition-all duration-300 hover:scale-110 hover:bg-orange-600" />
+                <span className="font-base invisible absolute h-full w-full cursor-pointer rounded-sm bg-orange-600 px-1 pt-1 font-poppins text-xxs leading-3 text-wht opacity-0 transition-all duration-300 group-hover:visible group-hover:opacity-100">
                   Redux Toolkit
                 </span>
               </div>
@@ -70,7 +67,7 @@ const Technologies = () => {
                   // title="NodeJs"
                   className="cursor-pointer rounded-lg bg-blue fill-wht p-3 text-5xl transition-all duration-300 hover:scale-110 hover:bg-orange-600"
                 />
-                <span className="font-base invisible absolute h-full w-full cursor-pointer rounded-sm bg-orange-600 px-1 py-0.5 font-poppins text-xxs text-wht opacity-0 transition-all duration-300 group-hover:visible group-hover:opacity-100">
+                <span className="font-base invisible absolute h-full w-full cursor-pointer rounded-sm bg-orange-600 px-1 pt-1 font-poppins text-xxs leading-3 text-wht opacity-0 transition-all duration-300 group-hover:visible group-hover:opacity-100">
                   NodeJs
                 </span>
               </div>
@@ -80,7 +77,7 @@ const Technologies = () => {
                   // title="Material Ui v5"
                   className="cursor-pointer rounded-lg bg-blue fill-wht p-3 text-5xl transition-all duration-300 hover:scale-110 hover:bg-orange-600"
                 />
-                <span className="font-base invisible absolute h-full w-full cursor-pointer rounded-sm bg-orange-600 px-1 py-0.5 font-poppins text-xxs text-wht opacity-0 transition-all duration-300 group-hover:visible group-hover:opacity-100">
+                <span className="font-base invisible absolute h-full w-full cursor-pointer rounded-sm bg-orange-600 px-1 pt-1 font-poppins text-xxs leading-3 text-wht opacity-0 transition-all duration-300 group-hover:visible group-hover:opacity-100">
                   Material Ui
                 </span>
               </div>
@@ -90,7 +87,7 @@ const Technologies = () => {
                   // title="Tailwind CSS"
                   className="cursor-pointer rounded-lg bg-blue fill-wht p-3 text-5xl transition-all duration-300 hover:scale-110 hover:bg-orange-600"
                 />
-                <span className="font-base invisible absolute h-full w-full cursor-pointer rounded-sm bg-orange-600 px-1 py-0.5 font-poppins text-xxs text-wht text-start opacity-0 transition-all duration-300 group-hover:visible group-hover:opacity-100">
+                <span className="font-base invisible absolute h-full w-full cursor-pointer rounded-sm bg-orange-600 px-1 pt-1 font-poppins text-xxs leading-3 text-wht opacity-0 transition-all duration-300 group-hover:visible group-hover:opacity-100">
                   Tailwind CSS
                 </span>
               </div>
@@ -100,7 +97,7 @@ const Technologies = () => {
                   // title="Styled Components"
                   className="cursor-pointer rounded-lg bg-blue fill-wht p-3 text-5xl transition-all duration-300 hover:scale-110 hover:bg-orange-600"
                 />
-                <span className="font-base invisible absolute h-full w-full cursor-pointer rounded-sm bg-orange-600 px-1 py-0.5 font-poppins text-xxs text-wht opacity-0 transition-all duration-300 group-hover:visible group-hover:opacity-100">
+                <span className="font-base invisible absolute h-full w-full cursor-pointer rounded-sm bg-orange-600 px-1 pt-1 font-poppins text-xxs leading-3 text-wht opacity-0 transition-all duration-300 group-hover:visible group-hover:opacity-100">
                   Styled Component
                 </span>
               </div>
@@ -109,7 +106,7 @@ const Technologies = () => {
                   // title="HTML5"
                   className="cursor-pointer rounded-lg bg-blue fill-wht p-3 text-5xl transition-all duration-300 hover:scale-110 hover:bg-orange-600"
                 />
-                <span className="font-base invisible absolute h-full w-full cursor-pointer rounded-sm bg-orange-600 px-1 py-0.5 font-poppins text-xxs text-wht opacity-0 transition-all duration-300 group-hover:visible group-hover:opacity-100">
+                <span className="font-base invisible absolute h-full w-full cursor-pointer rounded-sm bg-orange-600 px-1 pt-1 font-poppins text-xxs leading-3 text-wht opacity-0 transition-all duration-300 group-hover:visible group-hover:opacity-100">
                   HTML5
                 </span>
               </div>
@@ -119,7 +116,7 @@ const Technologies = () => {
                   // title="CSS3"
                   className="cursor-pointer rounded-lg bg-blue fill-wht p-3 text-5xl transition-all duration-300 hover:scale-110 hover:bg-orange-600"
                 />
-                <span className="font-base invisible absolute h-full w-full cursor-pointer rounded-sm bg-orange-600 px-1 py-0.5 font-poppins text-xxs text-wht opacity-0 transition-all duration-300 group-hover:visible group-hover:opacity-100">
+                <span className="font-base invisible absolute h-full w-full cursor-pointer rounded-sm bg-orange-600 px-1 pt-1 font-poppins text-xxs leading-3 text-wht opacity-0 transition-all duration-300 group-hover:visible group-hover:opacity-100">
                   CSS3
                 </span>
               </div>
@@ -128,7 +125,7 @@ const Technologies = () => {
                   // title="Vite"
                   className="cursor-pointer rounded-lg bg-blue fill-wht p-3 text-5xl transition-all duration-300 hover:scale-110 hover:bg-orange-600"
                 />
-                <span className="font-base invisible absolute h-full w-full cursor-pointer rounded-sm bg-orange-600 px-1 py-0.5 font-poppins text-xxs text-wht opacity-0 transition-all duration-300 group-hover:visible group-hover:opacity-100">
+                <span className="font-base invisible absolute h-full w-full cursor-pointer rounded-sm bg-orange-600 px-1 pt-1 font-poppins text-xxs leading-3 text-wht opacity-0 transition-all duration-300 group-hover:visible group-hover:opacity-100">
                   Vite
                 </span>
               </div>
@@ -137,13 +134,13 @@ const Technologies = () => {
                   // title="Firebase"
                   className="cursor-pointer rounded-lg bg-blue fill-wht p-3 text-5xl transition-all duration-300 hover:scale-110 hover:bg-orange-600"
                 />
-                <span className="font-base invisible absolute h-full w-full cursor-pointer rounded-sm bg-orange-600 px-1 py-0.5 font-poppins text-xxs text-wht opacity-0 transition-all duration-300 group-hover:visible group-hover:opacity-100">
+                <span className="font-base invisible absolute h-full w-full cursor-pointer rounded-sm bg-orange-600 px-1 pt-1 font-poppins text-xxs leading-3 text-wht opacity-0 transition-all duration-300 group-hover:visible group-hover:opacity-100">
                   Firebase
                 </span>
               </div>
             </div>
 
-            <div className="w-full lg:w-1/2 flex flex-col items-center justify-start gap-2 max-w-sm pt-5 lg:pt-0 lg:px-4  ">
+            <div className="flex w-full max-w-sm flex-col items-center justify-start gap-2 pt-5 lg:w-1/2 lg:px-4 lg:pt-0  ">
               <p className="animate__animated animate__fadeIn animate__delay-1s h-full w-full rounded-xl font-poppins font-semibold capitalize text-slate-600">
                 - These are the tech stacks i have worked on and am proficient
                 in working with.
