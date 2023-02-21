@@ -12,7 +12,9 @@ type filterProps = {
   activeFilter? : string,
   setActiveFilter? : any,
   toggle? : boolean,
-  setToggle? : any
+  setToggle? : any,
+  open? : boolean,
+  setOpen? : any
 }
 
 export const AppContext = createContext<Partial<filterProps>>({})
@@ -21,6 +23,7 @@ function App() {
 
   const [activeFilter, setActiveFilter] = useState("");
   const [toggle, setToggle] = useState(false);
+  const [open, setOpen] = useState(false);
   // let [urlAdd, setUrlAdd] = useState(window.location.href)
 
   // console.log(urlAdd)
@@ -45,7 +48,7 @@ function App() {
 
   return (
     <>
-      <AppContext.Provider value = {{activeFilter, setActiveFilter, toggle, setToggle}} >
+      <AppContext.Provider value = {{activeFilter, setActiveFilter, toggle, setToggle, open, setOpen}} >
         <RouterProvider router={router} />
       </AppContext.Provider>
     </>

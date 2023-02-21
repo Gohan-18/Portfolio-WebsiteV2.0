@@ -33,7 +33,7 @@ function Navbar() {
               </li>
               <li
                 onClick={() => setToggle(!toggle)}
-                // className="transition-all duration-500"
+                className="transition-all duration-500"
               >
                 {!toggle ? (
                   <HiMenuAlt1 className="font-4xl  h-8 w-8 cursor-pointer rounded-full p-1 text-wht transition-all duration-500 hover:bg-wht hover:text-indigo-800" />
