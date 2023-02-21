@@ -20,13 +20,9 @@ body {
 
 .gradient-button {
   background: hsla(41, 100%, 70%, 1);
-
-  background: linear-gradient(90deg, hsla(41, 100%, 70%, 1) 0%, hsla(7, 76%, 47%, 1) 100%);
-  
-  background: -moz-linear-gradient(90deg, hsla(41, 100%, 70%, 1) 0%, hsla(7, 76%, 47%, 1) 100%);
-  
+  background: linear-gradient(90deg, hsla(41, 100%, 70%, 1) 0%, hsla(7, 76%, 47%, 1) 100%); 
+  background: -moz-linear-gradient(90deg, hsla(41, 100%, 70%, 1) 0%, hsla(7, 76%, 47%, 1) 100%); 
   background: -webkit-linear-gradient(90deg, hsla(41, 100%, 70%, 1) 0%, hsla(7, 76%, 47%, 1) 100%);
-  
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFCF67", endColorstr="#D3321D", GradientType=1 );
 }
 
@@ -66,6 +62,10 @@ a {
 
 .hero-text {
   text-shadow: 2px 2px 8px #111;
+}
+
+.hero-mini-text {
+  text-shadow: 4px 2px 4px #111;
 }
 
 ::-webkit-scrollbar {

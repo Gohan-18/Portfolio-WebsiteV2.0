@@ -26,7 +26,7 @@ const Contact = () => {
 
   return (
     <>
-      <section className="z-5 flex h-screen w-full flex-col items-center justify-center bg-dark-blue px-4 pt-24 pb-12 transition-all duration-500 sm:px-10 md:bg-wht md:px-14 ">
+      <section className="z-5 flex h-full md:h-screen w-full flex-col items-center justify-center bg-dark-blue px-4 pt-24 pb-12 transition-all duration-500 sm:px-10 md:bg-wht md:px-14 ">
         <div className=" flex h-full w-full flex-col items-center justify-center">
           <h3 className="animate__animated animate__fadeInDown pt-2 pb-5 text-center font-catamaran text-2xl sm:text-3xl font-extrabold uppercase leading-3 text-wht transition-all duration-500 md:text-dark-blue">
             {`< Contact />`}

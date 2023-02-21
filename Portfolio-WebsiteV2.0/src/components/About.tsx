@@ -24,7 +24,7 @@ const About = () => {
           <div className="animate__animated animate__fadeIn animate__delay-1s flex h-full w-full max-w-4xl flex-col items-center justify-center gap-2 rounded border-l-4 border-r-4 border-orange-600 bg-wht py-6 px-4 text-sm transition-all duration-500 sm:text-base md:gap-2 md:rounded-lg md:border-indigo-800 md:bg-gray-300 md:px-10 md:py-10">
             <p className="max-w-lg text-center font-poppins font-medium text-sm md:text-base capitalize text-slate-700">
               Hey there, 👋 my name is{" "}
-              <span className="font-semibold text-orange-600 underline">
+              <span className="font-semibold text-orange-600 ">
                 Prabhat
               </span>{" "}
               and i'm a{" "}
