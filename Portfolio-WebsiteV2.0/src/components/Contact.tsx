@@ -44,6 +44,7 @@ const Contact = () => {
               className="flex h-full w-full flex-col items-center justify-center gap-3 "
             >
               <input
+                required
                 autoComplete="off"
                 className="w-full max-w-md rounded bg-wht py-1.5 px-3 font-poppins text-sm font-semibold leading-3 text-slate-600 focus:outline-none"
                 type="text"
@@ -53,6 +54,7 @@ const Contact = () => {
                 onChange={(e) => setContactName(e.target.value)}
               />
               <input
+                required
                 className="w-full max-w-md rounded bg-wht py-1.5 px-3 font-poppins text-sm font-semibold leading-3 text-slate-600 focus:outline-none"
                 type="email"
                 name="Email"
@@ -61,6 +63,7 @@ const Contact = () => {
                 onChange={(e) => setContactEmail(e.target.value)}
               />
               <textarea
+                required
                 rows={8}
                 className="w-full max-w-md rounded bg-wht py-2 px-3 font-poppins text-sm font-semibold leading-4 text-slate-600 focus:outline-none"
                 name="Message"
