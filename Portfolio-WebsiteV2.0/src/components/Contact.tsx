@@ -7,9 +7,9 @@ import { BiSend } from "react-icons/bi";
 const Contact = () => {
   const { setActiveFilter } = useContext(AppContext);
   const [state, handleSubmit] = useForm("xoqzddkg");
-  const [contactName, setContactName] = useState('');
-  const [contactEmail, setContactEmail] = useState('');
-  const [contactMessage, setContactMessage] = useState('');
+  const [contactName, setContactName] = useState("");
+  const [contactEmail, setContactEmail] = useState("");
+  const [contactMessage, setContactMessage] = useState("");
 
   // console.log(contactName)
 
@@ -26,20 +26,20 @@ const Contact = () => {
 
   return (
     <>
-      <section className="z-5 flex h-full md:h-screen w-full flex-col items-center justify-center bg-dark-blue px-4 pt-24 pb-12 transition-all duration-500 sm:px-10 md:bg-wht md:px-14 ">
+      <section className="z-5 flex h-full w-full flex-col items-center justify-center bg-dark-blue px-4 pt-24 pb-12 transition-all duration-500 sm:px-10 md:h-screen md:bg-wht md:px-14 ">
         <div className=" flex h-full w-full flex-col items-center justify-center">
-          <h3 className="animate__animated animate__fadeInDown pt-2 pb-5 text-center font-catamaran text-2xl sm:text-3xl font-extrabold uppercase leading-3 text-wht transition-all duration-500 md:text-dark-blue">
+          <h3 className="animate__animated animate__fadeInDown pt-7 pb-5 text-center font-catamaran text-2xl font-extrabold uppercase leading-3 text-wht transition-all duration-500 sm:text-3xl md:pt-2 md:text-dark-blue">
             {`< Contact />`}
           </h3>
-          <div className="animate__animated animate__fadeIn animate__delay-1s flex h-fit w-full max-w-4xl flex-col items-center justify-center rounded-md bg-dark-blue py-6 px-4 transition-all duration-500 sm:rounded-xl sm:px-10 sm:py-10 md:h-full">
+          <div className="animate__animated animate__fadeIn animate__delay-1s flex h-fit w-full max-w-4xl flex-col items-center justify-center rounded-md bg-dark-blue py-3 px-4 transition-all duration-300 sm:rounded-xl sm:px-10 md:h-full md:py-6">
             <form
               // action="https://formspree.io/f/xoqzddkg"
               onSubmit={(e) => {
                 e.preventDefault();
-                handleSubmit(e)
-                setContactName('');
-                setContactEmail('');
-                setContactMessage('');
+                handleSubmit(e);
+                setContactName("");
+                setContactEmail("");
+                setContactMessage("");
               }}
               className="flex h-full w-full flex-col items-center justify-center gap-3 "
             >

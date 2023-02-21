@@ -9,8 +9,10 @@ import { About, Technologies, Projects, Contact } from './components/exports';
 import { createContext, useState } from "react";
 
 type filterProps = {
-  activeFilter : string,
-  setActiveFilter: any
+  activeFilter? : string,
+  setActiveFilter? : any,
+  toggle? : boolean,
+  setToggle? : any
 }
 
 export const AppContext = createContext<Partial<filterProps>>({})
@@ -18,6 +20,7 @@ export const AppContext = createContext<Partial<filterProps>>({})
 function App() {
 
   const [activeFilter, setActiveFilter] = useState("");
+  const [toggle, setToggle] = useState(false);
   // let [urlAdd, setUrlAdd] = useState(window.location.href)
 
   // console.log(urlAdd)
@@ -42,7 +45,7 @@ function App() {
 
   return (
     <>
-      <AppContext.Provider value = {{activeFilter, setActiveFilter}} >
+      <AppContext.Provider value = {{activeFilter, setActiveFilter, toggle, setToggle}} >
         <RouterProvider router={router} />
       </AppContext.Provider>
     </>
