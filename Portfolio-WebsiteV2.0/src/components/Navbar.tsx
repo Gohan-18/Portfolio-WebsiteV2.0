@@ -24,7 +24,7 @@ function Navbar() {
                   // href="index.html"
                   onClick={() => {
                     setActiveFilter("");
-                    setToggle(!toggle)
+                    setToggle(false)
                   }}
                   className="cursor-pointer border-r-2 border-solid pr-3 font-catamaran text-lg font-black leading-4 transition-all duration-500 hover:text-orange-300"
                 >
@@ -33,6 +33,7 @@ function Navbar() {
               </li>
               <li
                 onClick={() => setToggle(!toggle)}
+                // className="transition-all duration-500"
               >
                 {!toggle ? (
                   <HiMenuAlt1 className="font-4xl  h-8 w-8 cursor-pointer rounded-full p-1 text-wht transition-all duration-500 hover:bg-wht hover:text-indigo-800" />
