@@ -92,7 +92,7 @@ function Navbar() {
           </nav>
         </header>
 
-        <div className={`animate__animated animate__slideInDown md:h-0 bg-dark-blue w-full gap-3 flex flex-col items-center justify-center absolute z-50 ${toggle ? " h-screen" : "h-0"} transition-all duration-500 border-b-4 border-wht `} >
+        <div className={`animate__animated animate__slideInDown md:h-0 fixed bg-dark-blue w-full gap-3 flex flex-col items-center justify-center z-50 ${toggle ? " h-screen" : "h-0"} transition-all duration-500 border-b-4 border-wht `} >
                   
           {/* <ul className="w-full items-center justify-center flex-col" > */}
           {["About", "Technologies", "Projects"].map((item, index) => (
