@@ -1,5 +1,14 @@
 export const projects = [
     {
+        title : "Aurórá - An online YouTube Video Player",
+        date : "Feb 2023",
+        description : "Aurórá, is an online youTube video player made using ReactJs.",
+        techStack : [ 'React', 'Javascript', 'Material UI v5', 'Redux-Toolkit', 'HTML', 'NodeJs', 'Firebase', 'Vite', 'YouTube API'],
+        liveLink : "https://aurora-onlinevideoplayer-prabhat18.netlify.app/",
+        gitHubLink : "https://github.com/Gohan-18/Video-Player",
+        youtubeLink : "https://www.youtube.com/watch?v=5mJBauLcYp4&t=1648s"
+    },
+    {
         title : "ShopMore - An online Marketplace",
         date : "Jan 2023",
         description : "ShopMore, an E-Commerce website made using ReactJs.",
