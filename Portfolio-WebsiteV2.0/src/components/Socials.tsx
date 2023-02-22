@@ -2,6 +2,7 @@ import React from 'react';
 import { CiLinkedin } from "react-icons/ci";
 import { AiFillGithub } from "react-icons/ai";
 import { BsInstagram } from "react-icons/bs";
+import { RiTelegramFill } from "react-icons/ri";
 
 const Socials = () => {
   return (
@@ -14,8 +15,11 @@ const Socials = () => {
         <a href="https://github.com/Gohan-18" target="_blank" >
             <AiFillGithub className="cursor-pointer rounded bg-dark-blue p-1 text-3xl transition-all duration-300 hover:scale-105 hover:bg-orange-600" />
         </a>
-        <a href="https://www.instagram.com/prab_hat1/" target="_blank" >
+        <a href="https://www.instagram.com/prab_hat18/" target="_blank" >
             <BsInstagram className="cursor-pointer rounded bg-dark-blue p-1.5 text-3xl transition-all duration-300 hover:scale-105 hover:bg-orange-600" />
+        </a>
+        <a href="https://t.me/Prab_hat18/" target="_blank" >
+            <RiTelegramFill className="cursor-pointer rounded bg-dark-blue p-1 text-3xl transition-all duration-300 hover:scale-105 hover:bg-orange-600" />
         </a>
     </div>
     </section>
