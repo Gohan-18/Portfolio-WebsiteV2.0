@@ -92,17 +92,6 @@ const Contact = () => {
             </form>
           </div>
         </div>
-        <div className="animate__animated animate__slideInUp absolute bottom-0 flex max-w-xs items-center justify-center gap-1 rounded py-1.5 px-3 font-poppins text-sm font-medium text-wht md:bottom-1  ">
-          <a href="https://www.linkedin.com/in/prabhat187/" target="_blank" >
-            <CiLinkedin className="cursor-pointer rounded bg-dark-blue p-0.5 text-3xl transition-all duration-300 hover:scale-105 hover:bg-orange-600 " />
-          </a>
-          <a href="https://github.com/Gohan-18" target="_blank" >
-            <AiFillGithub className="cursor-pointer rounded bg-dark-blue p-1 text-3xl transition-all duration-300 hover:scale-105 hover:bg-orange-600" />
-          </a>
-          <a href="https://www.instagram.com/prab_hat1/" target="_blank" >
-            <BsInstagram className="cursor-pointer rounded bg-dark-blue p-1.5 text-3xl transition-all duration-300 hover:scale-105 hover:bg-orange-600" />
-          </a>
-        </div>
       </section>
       <CustomizedSnackbars />
     </>

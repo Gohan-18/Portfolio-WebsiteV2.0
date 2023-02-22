@@ -5,6 +5,9 @@ import { AppContext } from "../App";
 import { HiMenuAlt1 } from "react-icons/hi";
 import { RxCross2 } from "react-icons/rx";
 import 'animate.css';
+import { CiLinkedin } from "react-icons/ci";
+import { AiFillGithub } from "react-icons/ai";
+import { BsInstagram } from "react-icons/bs";
 
 function Navbar() {
   const { activeFilter, setActiveFilter } = useContext(AppContext);
@@ -92,15 +95,13 @@ function Navbar() {
           </nav>
         </header>
 
+        {/* Small screen Navigation */}
+
         <div className={`animate__animated animate__slideInDown md:h-0 fixed bg-dark-blue w-full gap-3 flex flex-col items-center justify-center z-50 ${toggle ? " h-screen" : "h-0"} transition-all duration-500 border-b-4 border-wht `} >
-                  
-          {/* <ul className="w-full items-center justify-center flex-col" > */}
           {["About", "Technologies", "Projects"].map((item, index) => (
-                // <li  className="w-full items-center justify-center " >
                   <Link
                     key={index}
                     to={`/${item}`}
-                    // href={`#${item}`}
                     onClick={() => {
                       setActiveFilter(item);
                       setToggle(!toggle)
@@ -114,12 +115,10 @@ function Navbar() {
                     {item}
                   </Link>
                   
-                // </li>
               ))}
 
               <Link
                 to={"/Contact"}
-                // href={`#${item}`}
                 onClick={() => {
                   setActiveFilter("Contact");
                   setToggle(!toggle)
@@ -132,6 +131,18 @@ function Navbar() {
               >
                 Contact
               </Link>
+
+              <div className="animate__animated animate__slideInUp absolute bottom-0 flex max-w-xs items-center justify-center gap-1 rounded py-1.5 px-3 font-poppins text-sm font-medium text-wht md:bottom-1  ">
+                <a href="https://www.linkedin.com/in/prabhat187/" target="_blank" >
+                  <CiLinkedin className="cursor-pointer rounded bg-dark-blue p-0.5 text-3xl transition-all duration-300 hover:scale-105 hover:bg-orange-600 " />
+                </a>
+                <a href="https://github.com/Gohan-18" target="_blank" >
+                  <AiFillGithub className="cursor-pointer rounded bg-dark-blue p-1 text-3xl transition-all duration-300 hover:scale-105 hover:bg-orange-600" />
+                </a>
+                <a href="https://www.instagram.com/prab_hat1/" target="_blank" >
+                  <BsInstagram className="cursor-pointer rounded bg-dark-blue p-1.5 text-3xl transition-all duration-300 hover:scale-105 hover:bg-orange-600" />
+                </a>
+              </div>
         </div>
 
       </section>
