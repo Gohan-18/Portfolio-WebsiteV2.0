@@ -24,7 +24,7 @@ const Technologies = () => {
   return (
     <>
       {/* <section className="z-5 flex  w-full flex-col items-center justify-center bg-wht px-28 pt-24 pb-12  "> */}
-      <section className="z-5 padding-top flex w-full items-center justify-center bg-dark-blue px-4 pb-12 transition-all duration-500 sm:px-10 md:bg-wht md:px-14 lg:h-screen ">
+      <section className="z-5 padding-top flex w-full items-center justify-center bg-dark-blue px-4 pb-12 transition-all duration-500 sm:px-10  md:bg-wht md:px-14 lg:h-screen ">
         <div className=" flex-Wrap flex h-full w-full flex-col items-center justify-center ">
           <h3 className="animate__animated animate__fadeInDown pt-2 pb-5 text-center font-catamaran text-2xl font-extrabold uppercase leading-3 text-wht sm:text-3xl md:text-indigo-800">
             {`< Technologies />`}

@@ -16,7 +16,7 @@ const About = () => {
 
   return (
     <>
-      <section className="z-5 padding-top flex h-full w-full flex-col items-center justify-center bg-dark-blue px-4  pb-12 leading-6 transition-all duration-500 sm:px-10 md:bg-wht md:px-14  ">
+      <section className="z-5 padding-top flex h-full w-full flex-col items-center justify-center bg-dark-blue px-4  pb-12 leading-6 transition-all duration-500 sm:px-10 full-screen md:bg-wht md:px-14  ">
         <div className=" flex h-full w-full flex-col items-center justify-center">
           <h3 className="animate__animated animate__fadeInDown pt-2 pb-4 text-center font-catamaran text-2xl font-extrabold uppercase leading-3 text-wht transition-all duration-500 sm:text-3xl md:text-indigo-800">
             {`< About />`}

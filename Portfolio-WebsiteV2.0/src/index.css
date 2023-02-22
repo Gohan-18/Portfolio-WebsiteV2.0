@@ -26,6 +26,12 @@ body {
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFCF67", endColorstr="#D3321D", GradientType=1 );
 }
 
+@media ( min-width: 750px) and (orientation : portrait) {
+  .full-screen {
+    height: 100vh;
+  }
+}
+
 .viewBox {
   transition: all 500ms;
   background-color: #2d2672;

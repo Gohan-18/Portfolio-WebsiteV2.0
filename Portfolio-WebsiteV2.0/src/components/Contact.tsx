@@ -3,6 +3,9 @@ import { useForm, ValidationError } from "@formspree/react";
 import { AppContext } from "../App";
 import { FiSend } from "react-icons/fi";
 import { BiSend } from "react-icons/bi";
+import { CiLinkedin } from "react-icons/ci";
+import { AiFillGithub } from "react-icons/ai";
+import { BsInstagram } from "react-icons/bs";
 import CheckCircleOutlineRoundedIcon from "@mui/icons-material/CheckCircleOutlineRounded";
 import DoneAllRoundedIcon from "@mui/icons-material/DoneAllRounded";
 import CustomizedSnackbars from "./Snackbar";
@@ -16,14 +19,13 @@ const Contact = () => {
   const [contactMessage, setContactMessage] = useState("");
   const { open, setOpen } = useContext(AppContext);
 
-  console.log(open)
+  console.log(open);
 
-  console.log(handleSubmit)
+  console.log(handleSubmit);
 
   if (state.succeeded) {
     // return <p>Thanks for joining!</p>;
     console.log("Thank you. Your message has been delivered...");
-    setOpen(true);
     // setSucceeded(false)
   }
 
@@ -33,7 +35,7 @@ const Contact = () => {
 
   return (
     <>
-      <section className="z-5 relative flex h-full w-full flex-col items-center justify-center bg-dark-blue px-4 padding-top pb-12 transition-all duration-500 sm:px-10 md:h-screen md:bg-wht md:px-14 ">
+      <section className="z-5 padding-top relative flex h-full w-full flex-col items-center justify-center bg-dark-blue px-4 pb-12 transition-all duration-500 sm:px-10 md:h-screen md:bg-wht md:px-14 ">
         <div className=" flex h-full w-full flex-col items-center justify-center">
           <h3 className="animate__animated animate__fadeInDown pt-7 pb-5 text-center font-catamaran text-2xl font-extrabold uppercase leading-3 text-wht transition-all duration-500 sm:text-3xl md:pt-2 md:text-dark-blue">
             {`< Contact />`}
@@ -41,9 +43,9 @@ const Contact = () => {
           <div className="animate__animated animate__fadeIn animate__delay-1s relative flex h-fit w-full max-w-4xl flex-col items-center justify-center rounded-md bg-dark-blue py-3 px-4 transition-all duration-300 sm:rounded-xl sm:px-10 md:h-full md:py-6">
             <form
               // action="https://formspree.io/f/xoqzddkg"
-              onSubmit={ (e) => {
+              onSubmit={(e) => {
                 e.preventDefault();
-                handleSubmit(e);
+                handleSubmit(e).then(setOpen(true));
                 setContactName("");
                 setContactEmail("");
                 setContactMessage("");
@@ -90,10 +92,17 @@ const Contact = () => {
             </form>
           </div>
         </div>
-        {/* <div className="absolute bottom-1 md:bottom-3 flex items-center justify-center max-w-xs gap-1 py-1.5 px-3 bg-green-700 rounded text-wht font-poppins text-sm font-medium  " >
-            <span onClick={handleClick} > <DoneAllRoundedIcon sx={{width: '20px', height: '20px'}} /> </span>
-            <span>Your message has been delivered successfully!!</span>
-        </div> */}
+        <div className="animate__animated animate__slideInUp absolute bottom-0 flex max-w-xs items-center justify-center gap-1 rounded py-1.5 px-3 font-poppins text-sm font-medium text-wht md:bottom-1  ">
+          <a href="https://www.linkedin.com/in/prabhat187/" target="_blank" >
+            <CiLinkedin className="cursor-pointer rounded bg-dark-blue p-0.5 text-3xl transition-all duration-300 hover:scale-105 hover:bg-orange-600 " />
+          </a>
+          <a href="https://github.com/Gohan-18" target="_blank" >
+            <AiFillGithub className="cursor-pointer rounded bg-dark-blue p-1 text-3xl transition-all duration-300 hover:scale-105 hover:bg-orange-600" />
+          </a>
+          <a href="https://www.instagram.com/prab_hat1/" target="_blank" >
+            <BsInstagram className="cursor-pointer rounded bg-dark-blue p-1.5 text-3xl transition-all duration-300 hover:scale-105 hover:bg-orange-600" />
+          </a>
+        </div>
       </section>
       <CustomizedSnackbars />
     </>
