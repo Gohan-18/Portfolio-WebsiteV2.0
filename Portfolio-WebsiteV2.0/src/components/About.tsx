@@ -26,7 +26,7 @@ const About = () => {
               Hey there, 👋 my name is{" "}
               <span className="font-semibold text-orange-500 ">Prabhat</span>{" "}
               and i'm a{" "}
-              <span className="font-semibold">fullstack MERN webDeveloper</span>{" "}
+              <span title="MongoDB ExpressJs React NodeJs" className="font-semibold">fullstack MERN webDeveloper</span>{" "}
               with experties in making{" "}
               <span className="font-semibold ">frontend</span> webApps using
               React. i have completed my bachelors in computer application in
@@ -60,8 +60,8 @@ const About = () => {
               <span className="font-semibold">Material ui v5/Tailwind</span>.
             </p> */}
             <p className="max-w-sm text-center font-poppins text-sm font-medium capitalize text-wht md:max-w-xl md:text-base md:text-slate-700">
-              currently I am looking for front-End opportunities (preferably
-              around React tech stack). so if you are looking for someone with
+              currently I am in hunt for front-End opportunities (preferably
+              around React tech stack). so, if you are an organisation with TASTE; and looking for someone with
               mentioned tech skills,{" "}
               <Link
                 onClick={() => setActiveFilter("Contact")}
@@ -70,7 +70,7 @@ const About = () => {
               >
                 Contact Me
               </Link>{" "}
-              {`:)`}
+              {`;)`}
               {/* or checkout my{" "}
               <Link
                 onClick={() => setActiveFilter("Projects")}

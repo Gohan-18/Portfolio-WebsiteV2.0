@@ -2,6 +2,7 @@ import React, { useContext, useEffect } from "react";
 import ReactPlayer from "react-player";
 import { AppContext } from "../App";
 import { projects } from "../utils/constants";
+import { AiFillGithub } from "react-icons/ai";
 
 const Projects = () => {
   const { setActiveFilter } = useContext(AppContext);
@@ -12,16 +13,16 @@ const Projects = () => {
 
   return (
     <>
-      <section className="z-5 flex w-full transition-all duration-500 flex-col items-center padding-top justify-center bg-dark-blue px-4 pb-12 sm:px-10 md:px-14 ">
+      <section className="z-5 padding-top flex w-full flex-col items-center justify-center bg-dark-blue px-4 pb-12 transition-all duration-500 sm:px-10 md:px-14 ">
         <div className=" flex h-full w-full flex-col items-center justify-center gap-5">
-          <h3 className="animate__animated animate__fadeInDown pt-2 text-center font-catamaran text-2xl sm:text-3xl font-extrabold uppercase text-wht leading-3">
+          <h3 className="animate__animated animate__fadeInDown pt-2 text-center font-catamaran text-2xl font-extrabold uppercase leading-3 text-wht sm:text-3xl">
             {`< Projects />`}
           </h3>
           {projects.map((item) => {
             return (
               <div
                 key={item.title}
-                className="animate__animated animate__fadeIn animate__delay-1s flex w-full max-w-4xl flex-wrap items-start justify-start gap-6 border-orange-500 rounded transition-all duration-500 bg-wht md:bg-gray-200 py-6 px-4 odd:border-r-4 even:flex-row-reverse even:border-l-4 md:rounded-lg md:px-10 md:py-10"
+                className="animate__animated animate__fadeIn animate__delay-1s flex w-full max-w-4xl flex-wrap items-start justify-start gap-6 rounded border-orange-500 bg-wht py-6 px-4 transition-all duration-500 odd:border-r-4 even:flex-row-reverse even:border-l-4 md:rounded-lg md:bg-gray-200 md:px-10 md:py-10"
               >
                 <div className="flex h-full w-full items-center justify-center bg-wht lg:w-3/6">
                   {/* <h4 className="h-full w-full bg-wht p-20 font-poppins text-lg font-semibold text-slate-700 "></h4> */}
@@ -29,13 +30,19 @@ const Projects = () => {
                 </div>
 
                 <div className="flex flex-1 flex-col items-start justify-center gap-1 ">
-                  <a
-                    href={item.liveLink}
-                    target="_blank"
-                    className="font-poppins text-base font-semibold text-slate-700 transition-all duration-300 hover:text-orange-600 sm:text-lg "
-                  >
-                    {item.title}{" "}
-                  </a>
+                  <div>
+                    <a
+                      title="Live Project"
+                      href={item.liveLink}
+                      target="_blank"
+                      className="font-poppins text-base font-semibold text-slate-700 transition-all duration-300 hover:text-orange-500 sm:text-lg "
+                    >
+                      {item.title}{" "}
+                    </a>
+                    <a className="w-fit flex h-fit " title="GitHub" href={item.gitHubLink} target="_blank">
+                      <AiFillGithub className="h-4 w-8 cursor-pointer rounded-full bg-slate-600 p-0.5 text-wht transition-all duration-300 hover:bg-orange-500 " />{" "}
+                    </a>
+                  </div>
                   <span className=" pb-1 font-poppins text-xs font-medium text-blue">
                     {item.date}
                   </span>

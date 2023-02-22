@@ -169,7 +169,7 @@ const Technologies = () => {
                 - checkout my proof of work {" "}
                 <Link
                   onClick={() => setActiveFilter("Projects")}
-                  className=" inline-block rounded bg-blue px-1.5 py-0.5 font-poppins text-xs font-semibold text-wht  transition-all duration-500 hover:bg-orange-500 sm:text-sm "
+                  className=" inline-block rounded bg-blue px-1.5 py-0.5 font-poppins text-xs font-semibold text-wht  transition-all duration-300 hover:bg-orange-500 sm:text-sm "
                   to={"/Projects"}
                 >
                   Here
