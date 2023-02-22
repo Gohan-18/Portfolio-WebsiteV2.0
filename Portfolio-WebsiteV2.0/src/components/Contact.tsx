@@ -33,7 +33,7 @@ const Contact = () => {
 
   return (
     <>
-      <section className="z-5 relative flex h-full w-full flex-col items-center justify-center bg-dark-blue px-4 pt-24 pb-12 transition-all duration-500 sm:px-10 md:h-screen md:bg-wht md:px-14 ">
+      <section className="z-5 relative flex h-full w-full flex-col items-center justify-center bg-dark-blue px-4 padding-top pb-12 transition-all duration-500 sm:px-10 md:h-screen md:bg-wht md:px-14 ">
         <div className=" flex h-full w-full flex-col items-center justify-center">
           <h3 className="animate__animated animate__fadeInDown pt-7 pb-5 text-center font-catamaran text-2xl font-extrabold uppercase leading-3 text-wht transition-all duration-500 sm:text-3xl md:pt-2 md:text-dark-blue">
             {`< Contact />`}

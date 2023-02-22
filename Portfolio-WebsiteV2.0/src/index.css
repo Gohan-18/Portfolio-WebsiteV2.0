@@ -12,8 +12,8 @@
 }
 
 body {
-  /* background-color: #f4f4f4;
-  background-color: #4e44ab;
+  /* background-color: #f4f4f4; */
+  /* background-color: #4e44ab;
   background-color: #1f1a4d; */
   background-color: #2d2672;
 }
@@ -40,6 +40,10 @@ body {
   z-index: 100;
   /* background-color: #2c3c85; */
   /* background-color: #1f1a4d; */
+}
+
+.padding-top {
+  padding-top: 120px;
 }
 
 .blue-space {
