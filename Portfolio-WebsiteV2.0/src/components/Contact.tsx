@@ -20,9 +20,9 @@ const Contact = () => {
   const [contactMessage, setContactMessage] = useState("");
   const { open, setOpen } = useContext(AppContext);
 
-  console.log(open);
+  // console.log(open);
 
-  console.log(handleSubmit);
+  // console.log(handleSubmit);
 
   if (state.succeeded) {
     // return <p>Thanks for joining!</p>;
