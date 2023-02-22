@@ -11,29 +11,21 @@ const Contact = () => {
   const { setActiveFilter } = useContext(AppContext);
   const [state, handleSubmit] = useForm("xoqzddkg");
   const [contactName, setContactName] = useState("");
+  const [succeeded, setSucceeded] = useState(false);
   const [contactEmail, setContactEmail] = useState("");
   const [contactMessage, setContactMessage] = useState("");
   const { open, setOpen } = useContext(AppContext);
 
-  const handleClick = () => {
-    setOpen(true);
-  };
+  console.log(open)
 
-  // if (state.succeeded) {
-  //   handleClick();
-  // }
-
-  // console.log(contactName)
+  console.log(handleSubmit)
 
   if (state.succeeded) {
     // return <p>Thanks for joining!</p>;
     console.log("Thank you. Your message has been delivered...");
-    // handleClick();
-    // setTimeout(setOpen(false), 2000)
-    // break;
+    setOpen(true);
+    // setSucceeded(false)
   }
-
-  // console.log(handleSubmit)
 
   useEffect(() => {
     setActiveFilter("Contact");
@@ -52,7 +44,6 @@ const Contact = () => {
               onSubmit={ (e) => {
                 e.preventDefault();
                 handleSubmit(e);
-                handleClick()
                 setContactName("");
                 setContactEmail("");
                 setContactMessage("");
@@ -91,7 +82,7 @@ const Contact = () => {
                 className="flex w-full max-w-md items-center justify-center gap-1 rounded bg-green-700 py-3 px-3 font-poppins text-sm font-semibold leading-4 text-wht transition-all duration-300 hover:bg-orange-600 hover:text-wht focus:outline-none"
                 type="submit"
                 disabled={state.submitting}
-                onClick={handleClick}
+                // onClick={handleSuccessClick}
               >
                 <FiSend />
                 Send Message

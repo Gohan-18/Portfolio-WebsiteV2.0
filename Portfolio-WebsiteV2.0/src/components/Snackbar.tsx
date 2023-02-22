@@ -31,7 +31,7 @@ export default function CustomizedSnackbars() {
   return (
     <Stack spacing={2} sx={{ width: '100%' }}>
       <Snackbar 
-        open={open} 
+      open={open} 
       anchorOrigin={{
         vertical: 'bottom',
         horizontal: 'left',

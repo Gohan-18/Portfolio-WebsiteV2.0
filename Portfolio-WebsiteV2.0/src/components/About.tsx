@@ -26,24 +26,24 @@ const About = () => {
               Hey there, 👋 my name is{" "}
               <span className="font-semibold text-orange-600 ">Prabhat</span>{" "}
               and i'm a{" "}
-              <span className="font-semibold text-orange-600">
+              <span className="font-semibold">
                 fullstack MERN webDeveloper
               </span>{" "}
               with experties in making{" "}
-              <span className="font-semibold text-orange-600 ">frontend</span>{" "}
+              <span className="font-semibold ">frontend</span>{" "}
               webApps using React. i have completed my bachelors in computer
               application in 2022 and currently working at wipro as scholar
               trainee.
             </p>
             <p className="max-w-sm text-center font-poppins text-xs font-medium capitalize text-slate-700 sm:text-sm md:max-w-lg md:text-base">
               I can help you in creating frontEnd webApps using{" "}
-              <span className="text-indigo-800 ">ReactJs/Ts</span>, state
+              <span className=" font-semibold ">ReactJs/Ts</span>, state
               management tool like{" "}
-              <span className="text-indigo-800 ">redux-toolkit</span>, managing
+              <span className="font-semibold ">redux-toolkit</span>, managing
               backend using popular SaaS like{" "}
-              <span className="text-indigo-800 ">firebase</span> or in making
+              <span className="font-semibold ">firebase</span> or in making
               frontEnd UI using modern UI libraries like{" "}
-              <span className="text-indigo-800 ">Material ui v5/Tailwind</span>.
+              <span className="font-semibold">Material ui v5/Tailwind</span>.
             </p>
             <p className="max-w-sm text-center font-poppins text-xs font-medium capitalize text-slate-700 sm:text-sm md:max-w-lg md:text-base">
               currently I am looking for front-End opportunities (preferably
