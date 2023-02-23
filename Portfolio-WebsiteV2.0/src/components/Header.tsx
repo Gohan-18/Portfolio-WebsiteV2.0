@@ -1,7 +1,7 @@
 import { useContext, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { AppContext } from "../App";
-
+import HeroImg from "../assets/Hero-Image.png"
 const Header = () => {
 
   const { setActiveFilter } = useContext(AppContext);
@@ -10,10 +10,10 @@ const Header = () => {
   useEffect(() => {
     setActiveFilter("");
   }, []);
-
+  // md:bg-light-dark-header-banner
   return (
     <>
-      <section className="z-5 animate__animated animate__fadeIn flex h-screen w-full flex-wrap bg-small-screen-banner md:bg-light-dark-header-banner bg-no-repeat px-4 lg:px-14">
+      <section className="z-5 animate__animated animate__fadeIn flex h-screen w-full flex-wrap bg-small-screen-banner sm:bg-bubble-bg bg-no-repeat px-4 lg:px-14">
         <div
           className="w-full lg:w-1/2 padding-top mt-20 md:mt-10 lg:mt-20 pb-10 lg:pt-2 flex flex-col items-center justify-start lg:items-start lg:justify-center"
         >
@@ -48,7 +48,12 @@ const Header = () => {
           </button>
         </div>
 
-        {/* <div className="h-full w-full"></div> */}
+        <div className="animate__animated animate__fadeIn h-full hidden lg:flex items-center justify-center pb-14  lg:w-1/2 w-full">
+          <span>
+            <img src={HeroImg} alt="Hero image" />
+          </span>
+
+        </div>
       </section>
     </>
   );
