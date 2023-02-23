@@ -21,7 +21,7 @@ function Navbar() {
     <>
       <section>
         <header className="header animate__animated animate__fadeInDown fixed z-20 flex w-full items-center justify-center">
-          <nav className="flex h-full w-full flex-wrap items-center justify-between border-b-2 px-5 sm:px-8 md:hidden ">
+          <nav className={`flex h-full w-full flex-wrap items-center justify-between transition-all duration-300 border-b-4 ${toggle ? "border-orange-400" : "border-wht"} px-5 sm:px-8 md:hidden`} >
             <ul className="flex h-full w-full items-center justify-between gap-3">
               <li>
                 <Link
@@ -84,7 +84,7 @@ function Navbar() {
                   to={"/Contact"}
                   onClick={() => setActiveFilter("Contact")}
                   // href="#contact"
-                  className={` rounded border-2 px-1.5 py-0.5 font-poppins text-sm font-semibold leading-6 transition-all duration-500 ${
+                  className={` rounded border-2 px-1.5 py-0.5 uppercase font-poppins text-sm font-semibold leading-6 transition-all duration-500 ${
                     activeFilter === "Contact"
                       ? "bg-white text-indigo-800"
                       : "hover:bg-white hover:text-indigo-800"
@@ -102,7 +102,7 @@ function Navbar() {
         <div
           className={`animate__animated animate__slideInDown fixed z-50 flex w-full flex-col items-center justify-center gap-3 bg-dark-blue md:h-0 ${
             toggle ? " h-screen" : "h-0"
-          } border-b-4 border-wht transition-all duration-500 `}
+          } border-b-8 border-wht transition-all duration-500 `}
         >
           {["About", "Technologies", "Projects"].map((item, index) => (
             <Link
@@ -112,7 +112,7 @@ function Navbar() {
                 setActiveFilter(item);
                 setToggle(!toggle);
               }}
-              className={`cursor-pointer rounded font-poppins text-sm font-medium ${
+              className={`cursor-pointer uppercase rounded font-poppins text-sm font-medium ${
                 activeFilter === item
                   ? "bg-white px-1.5 py-0.5 text-sm font-semibold text-indigo-800 "
                   : "hover:bg-white hover:px-1.5 hover:py-0.5 hover:text-sm hover:font-semibold hover:text-indigo-800"
@@ -130,7 +130,7 @@ function Navbar() {
               setActiveFilter("Contact");
               setToggle(!toggle);
             }}
-            className={`cursor-pointer rounded font-poppins text-sm font-medium ${
+            className={`cursor-pointer rounded uppercase font-poppins text-sm font-medium ${
               activeFilter === "Contact"
                 ? "bg-white px-1.5 py-0.5 text-sm font-semibold text-indigo-800 "
                 : "hover:bg-white hover:px-1.5 hover:py-0.5 hover:text-sm hover:font-semibold hover:text-indigo-800"
@@ -141,10 +141,12 @@ function Navbar() {
             Contact
           </Link>
 
+          {/* Socials */}
+          {/* bottom-14 */}
           <div
             className={`animate__animated animate__slideInUp ${
               toggle ? "visible" : "invisible"
-            } absolute bottom-0 flex max-w-xs items-center justify-center gap-1 rounded py-1.5 px-3 font-poppins text-sm font-medium text-wht md:bottom-1  `}
+            } absolute bottom-14 flex max-w-xs items-center justify-center gap-1 rounded py-1.5 px-3 font-poppins text-sm font-medium text-wht md:bottom-1  `}
           >
             <a href="https://www.linkedin.com/in/prabhat187/" target="_blank">
               <CiLinkedin

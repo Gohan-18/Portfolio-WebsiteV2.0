@@ -24,7 +24,7 @@ const About = () => {
           <div className="animate__animated animate__fadeIn animate__delay-1s mt-1 flex h-full w-full max-w-4xl flex-col items-center justify-center gap-2 rounded border-t-4 border-orange-500 py-5 px-4 text-sm transition-all duration-500 sm:text-base md:mt-0 md:gap-2 md:rounded-lg md:]hborder-indigo-800 md:bg-gray-200 md:px-10 md:py-10">
             <p className="max-w-sm text-center font-poppins text-sm font-medium capitalize text-wht  md:max-w-xl md:text-base md:text-slate-700">
               Hey there, 👋 my name is{" "}
-              <span className="font-semibold text-orange-500 ">Prabhat</span>{" "}
+              <span className="font-semibold text-orange-400 ">Prabhat</span>{" "}
               and i'm a{" "}
               <span title="MongoDB ExpressJs React NodeJs" className="font-semibold">fullstack MERN webDeveloper</span>{" "}
               with experties in making{" "}
@@ -36,7 +36,7 @@ const About = () => {
               i have a knack of design and asthetics, add proficient knowledge
               of using tools like ReactJs, Redux-Toolkit with it and wlah!! you
               have got an awesome Front-End developer, who can not only create
-              front-End for your webApps, but also make them look good.
+              front-End for your webApp(s), but also make them look good.
             </p>
             <p className="max-w-sm text-center font-poppins  text-sm font-medium capitalize text-wht md:max-w-xl md:text-base md:text-slate-700">
               {`<`} for the list of all the tools i can help you with, checkout {" "}

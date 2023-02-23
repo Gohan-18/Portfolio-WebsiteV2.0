@@ -14,6 +14,8 @@ module.exports = {
         'header-banner': "url('./src/assets/White-BG-1.svg')",
         'dark-header-banner': "url('./src/assets/BG_Blue_Dark.svg')",
         'light-dark-header-banner': "url('./src/assets/Light-Dark-Blue.svg')",
+        'small-screen-banner' : "url('./src/assets/medium-screen-banner.png')",
+        'hero-image' : "url('./src/assets/Hero-Image.png"
       },
       colors: {
         'blue': '#4e44ab',
@@ -23,6 +25,7 @@ module.exports = {
       },
       fontSize: {
         'icons' : '60px',
+        'xms' : '14px',
         'xxs' : '9px',
         'xxxs': '9px'
       }

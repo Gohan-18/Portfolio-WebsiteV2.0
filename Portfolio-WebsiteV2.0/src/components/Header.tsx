@@ -13,10 +13,9 @@ const Header = () => {
 
   return (
     <>
-      <section className="z-5 animate__animated animate__fadeIn flex h-screen w-full flex-wrap bg-light-dark-header-banner bg-no-repeat px-4 lg:px-14">
+      <section className="z-5 animate__animated animate__fadeIn flex h-screen w-full flex-wrap bg-small-screen-banner md:bg-light-dark-header-banner bg-no-repeat px-4 lg:px-14">
         <div
-          // id="Home"
-          className="w-full lg:w-1/2 padding-top mt-10 lg:mt-20 pb-10 lg:pt-2 flex flex-col items-center justify-start lg:items-start lg:justify-center"
+          className="w-full lg:w-1/2 padding-top mt-20 md:mt-10 lg:mt-20 pb-10 lg:pt-2 flex flex-col items-center justify-start lg:items-start lg:justify-center"
         >
           <div className="animate__animated animate__fadeInDown w-full  flex items-center justify-center flex-col lg:items-start ">
             <h2 className="hero-text w-full max-w-md lg:w-fit text-center lg:text-start border-b-2 font-catamaran md:pb-1 lg:pb-0 text-lg md:text-2xl font-black uppercase leading-8 lg:leading-10 text-white shadow-black drop-shadow-lg">
