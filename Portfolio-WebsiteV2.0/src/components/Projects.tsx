@@ -39,7 +39,12 @@ const Projects = () => {
                     >
                       {item.title}{" "}
                     </a>
-                    <a className="w-fit flex h-fit " title="GitHub" href={item.gitHubLink} target="_blank">
+                    <a
+                      className="flex h-fit w-fit "
+                      title="GitHub"
+                      href={item.gitHubLink}
+                      target="_blank"
+                    >
                       <AiFillGithub className="h-4 w-8 cursor-pointer rounded-full bg-slate-600 p-0.5 text-wht transition-all duration-300 hover:bg-orange-500 " />{" "}
                     </a>
                   </div>
