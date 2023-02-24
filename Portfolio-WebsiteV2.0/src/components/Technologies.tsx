@@ -146,11 +146,11 @@ const Technologies = () => {
             </div>
 
             <div className="flex w-full max-w-sm flex-col items-center justify-start gap-2 pt-5 lg:w-1/2 lg:px-4 lg:pt-0  ">
-              <p className="animate__animated animate__fadeIn animate__delay-1s h-full w-full rounded-xl font-poppins font-semibold capitalize text-slate-600">
+              <p className="animate__animated animate__fadeIn animate__delay-1s text-justify h-full w-full rounded-xl font-poppins font-semibold capitalize text-slate-600">
                 - These are the tech stacks i have worked on and am proficient
                 in working with.
               </p>
-              <p className="animate__animated animate__fadeIn animate__delay-1s h-full w-full rounded-xl font-poppins font-semibold capitalize text-slate-600">
+              <p className="animate__animated animate__fadeIn animate__delay-1s text-justify h-full w-full rounded-xl font-poppins font-semibold capitalize text-slate-600">
                 - Apart from the listed technologies, i'm also well efficient in
                 working with{" "}
                 <span className="font-semibold text-orange-600">ExpressJs</span>{" "}
@@ -158,14 +158,14 @@ const Technologies = () => {
                 <span className="font-semibold text-orange-600">MongoDB</span>{" "}
                 for creating backend for webApps.
               </p>
-              <p className="animate__animated animate__fadeIn animate__delay-1s h-full w-full rounded-xl font-poppins font-semibold capitalize text-slate-600">
+              <p className="animate__animated animate__fadeIn animate__delay-1s h-full text-justify w-full rounded-xl font-poppins font-semibold capitalize text-slate-600">
                 - I can convert UI mockups from{" "}
                 <span className="font-semibold text-orange-600">
                   Figma/sketch
                 </span>{" "}
                 to the front-End of your webApp using mentioned tools.
               </p>
-              <p className="animate__animated animate__fadeIn animate__delay-1s h-full w-full rounded-xl font-poppins font-semibold capitalize text-slate-600">
+              <p className="animate__animated animate__fadeIn animate__delay-1s h-full text-justify w-full rounded-xl font-poppins font-semibold capitalize text-slate-600">
                 - checkout my proof of work {" "}
                 <Link
                   onClick={() => setActiveFilter("Projects")}
