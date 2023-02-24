@@ -38,7 +38,7 @@ export const projects = [
     ],
     liveLink: "https://shopmore-prabhat18.netlify.app/",
     gitHubLink: "https://github.com/Gohan-18/Shopping-website",
-    youtubeLink: "https://www.youtube.com/watch?v=5mJBauLcYp4&t=1648s",
+    youtubeLink: "https://youtu.be/YfWFFpjDP_8",
   },
   {
     title: "Note Taking App",

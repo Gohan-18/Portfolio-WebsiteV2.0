@@ -4,8 +4,10 @@ import { AppContext } from "../App";
 import HeroImg from "../assets/Hero-Image.png"
 const Header = () => {
 
-  const { setActiveFilter } = useContext(AppContext);
+  const { activeFilter, setActiveFilter } = useContext(AppContext);
   const navigate = useNavigate();
+  // const { activeFilter } = useContext(AppContext);
+
 
   useEffect(() => {
     setActiveFilter("");
@@ -53,6 +55,11 @@ const Header = () => {
             <img src={HeroImg} alt="Hero image" />
           </span>
 
+        </div>
+        <div className='fixed bottom-0 left-1 hidden md:flex rounded-sm' >
+          <strong className={`text-xxs font-poppins font-normal ${activeFilter === 'Contact' ? "text-dark-blue" : "text-wht"} `} >
+          © 2023 Prabhat | All rights reserved
+          </strong>
         </div>
       </section>
     </>

@@ -196,6 +196,11 @@ function Navbar() {
               />
             </a>
           </div>
+          <div className='fixed bottom-0 z-50 rounded-sm' >
+          <strong className={`text-xxs font-poppins font-normal text-wht `} >
+          © 2023 Prabhat | All rights reserved
+          </strong>
+          </div>
         </div>
       </section>
     </>
