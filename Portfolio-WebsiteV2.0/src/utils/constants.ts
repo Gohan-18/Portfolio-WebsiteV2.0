@@ -48,7 +48,7 @@ export const projects = [
     techStack: ["React", "Javascript", "HTML", "CSS", "NodeJs", "Vite"],
     liveLink: "https://note-app-prabhat18.netlify.app/",
     gitHubLink: "https://github.com/Gohan-18/Note-Taking_App",
-    youtubeLink: "https://www.youtube.com/watch?v=5mJBauLcYp4&t=1648s",
+    youtubeLink: "https://youtu.be/MxoY7u7_6Qc",
   },
   {
     title: "Chróma - An Image Searching App",
@@ -58,6 +58,6 @@ export const projects = [
     techStack: ["Javascript", "HTML", "CSS", "NodeJs"],
     liveLink: "https://chroma-animagesearchingapp.netlify.app/",
     gitHubLink: "https://github.com/Gohan-18/Gallary-App/tree/main/Gallary-App",
-    youtubeLink: "https://www.youtube.com/watch?v=5mJBauLcYp4&t=1648s",
+    youtubeLink: "https://youtu.be/ULX27zz2LuU",
   },
 ];
