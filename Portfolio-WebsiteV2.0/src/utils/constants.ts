@@ -3,7 +3,7 @@ export const projects = [
     title: "Aurórá - An online YouTube Video Player",
     date: "Feb 2023",
     description:
-      "Aurórá, is an online YouTube video player made using ReactJs. It uses YouTube API to fetch YouTube videos and channels. Users can search for their favourite creator's channel and videos, play them and can also login through super fast and reliable Firebase's Google authentication and add videos to the watchlist to save them from hassle of searching that favourite video again in future to watch, and login from any device to access your watchlist(Firestore's amazing!! Isn't it!!). The WebApp has minimal design and UI is kept similar to YouTube's UI so that the users don't get lost in figuring out how to play/pause a video instead of enjoying them. Chreers!",
+      "Aurórá, is an online YouTube video player made using ReactJs and Material UI v5. It uses YouTube API to fetch YouTube videos and channels. Users can search for their favourite creator's channel and videos, play them and can also login through super fast and reliable Firebase's Google authentication, add videos to the watchlist to save them from hassle of searching that favourite video again in future to watch, and login from any device to access their watchlist(Firestore's amazing!! Isn't it!!). The WebApp has minimal design and UI is kept similar to YouTube's UI so that the users don't get lost in figuring out how to play/pause a video instead of enjoying them. Chreers!",
     techStack: [
       "React",
       "Javascript",
@@ -23,7 +23,8 @@ export const projects = [
   {
     title: "ShopMore - An online Marketplace",
     date: "Jan 2023",
-    description: "ShopMore, an E-Commerce website made using ReactJs.",
+    description:
+      "ShopMore, an E-Commerce website made using ReactJs and Material UI v5. The user can search for the product through searchbar, add them to cart/wishlist and checkout from the cart. Before checkout, they'll have to login as checkout page is protected using Protected Route. (Note - Followed along DevsNest Youtube bootcamp to make base of the WebApp). Features added by me : Responsivness for smaller devices, Bottom Navigation, Entire My Account section, add/remove from Wishlist functionality, user profile viewer, Last Order detail page, Contact Me section, Single Product Detail page. Guest user Login credentials : Email id - robin187@gmail.com, Password - robin1234.",
     techStack: [
       "React",
       "Javascript",
