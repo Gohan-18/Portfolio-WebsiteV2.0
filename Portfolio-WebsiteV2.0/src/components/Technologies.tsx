@@ -127,7 +127,7 @@ const Technologies = () => {
               <div className="group relative flex w-fit h-full items-start justify-start transition-all duration-300">
                 <SiVite
                   // title="Vite"
-                  className="cursor-pointer rounded-lg bg-blue fill-wht p-3 text-5xl transition-all duration-300  hover:bg-orange-500"
+                  className="cursor-pointer rounded-lg text-dark-blue bg-blue fill-wht p-3 text-5xl transition-all duration-300  hover:bg-orange-500"
                 />
                 <span className="font-base invisible absolute h-full w-full cursor-pointer rounded-sm bg-orange-500 px-1 pt-1 font-poppins text-xxs leading-3 text-wht opacity-0 transition-all duration-300 group-hover:visible group-hover:opacity-100">
                   Vite
