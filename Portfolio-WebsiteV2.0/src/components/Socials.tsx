@@ -3,6 +3,7 @@ import { CiLinkedin } from "react-icons/ci";
 import { AiFillGithub } from "react-icons/ai";
 import { BsInstagram } from "react-icons/bs";
 import { RiTelegramFill } from "react-icons/ri";
+import { HiOutlineMail } from "react-icons/hi";
 
 const Socials = () => {
   return (
@@ -14,6 +15,9 @@ const Socials = () => {
         </a>
         <a href="https://github.com/Gohan-18" target="_blank" >
             <AiFillGithub className="cursor-pointer rounded bg-dark-blue p-1 text-3xl transition-all duration-300 hover:scale-105 hover:bg-orange-600" />
+        </a>
+        <a href="mailto:pkjha187@gmail.com" target="_blank" >
+            <HiOutlineMail className="cursor-pointer rounded bg-dark-blue p-1 text-3xl transition-all duration-300 hover:scale-105 hover:bg-orange-600" />
         </a>
         <a href="https://www.instagram.com/prab_hat18/" target="_blank" >
             <BsInstagram className="cursor-pointer rounded bg-dark-blue p-1.5 text-3xl transition-all duration-300 hover:scale-105 hover:bg-orange-600" />

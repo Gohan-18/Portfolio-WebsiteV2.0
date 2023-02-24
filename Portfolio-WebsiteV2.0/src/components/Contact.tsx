@@ -6,6 +6,7 @@ import { BiSend } from "react-icons/bi";
 import { CiLinkedin } from "react-icons/ci";
 import { AiFillGithub } from "react-icons/ai";
 import { BsInstagram } from "react-icons/bs";
+import { HiOutlineMail } from "react-icons/hi";
 import CheckCircleOutlineRoundedIcon from "@mui/icons-material/CheckCircleOutlineRounded";
 import DoneAllRoundedIcon from "@mui/icons-material/DoneAllRounded";
 import CustomizedSnackbars from "./Snackbar";
@@ -36,7 +37,7 @@ const Contact = () => {
 
   return (
     <>
-      <section className="z-5 padding-top relative flex h-full w-full flex-col items-center justify-center bg-dark-blue px-4 pb-12 transition-all duration-500 sm:px-10 md:h-screen md:bg-gray-200 md:px-14 ">
+      <section className="z-5 padding-top relative flex h-full w-full flex-col items-center justify-center bg-dark-blue px-4 pb-12 transition-all duration-300 sm:px-10 md:h-screen md:bg-gray-200 md:px-14 ">
         <div className=" flex h-full w-full flex-col items-center justify-center">
           <h3 className="animate__animated animate__fadeInDown pt-7 pb-5 text-center font-catamaran text-2xl font-extrabold uppercase leading-3 text-wht transition-all duration-500 sm:text-3xl md:pt-2 md:text-dark-blue">
             {`< Contact />`}
@@ -99,6 +100,9 @@ const Contact = () => {
           </a>
           <a href="https://github.com/Gohan-18" target="_blank">
             <AiFillGithub className="cursor-pointer rounded bg-dark-blue p-1 text-3xl transition-all duration-300 hover:scale-105 hover:bg-orange-600" />
+          </a>
+          <a href="mailto:pkjha187@gmail.com" target="_blank" >
+            <HiOutlineMail className="cursor-pointer rounded bg-dark-blue p-1 text-3xl transition-all duration-300 hover:scale-105 hover:bg-orange-600" />
           </a>
           <a href="https://www.instagram.com/prab_hat18/" target="_blank">
             <BsInstagram className="cursor-pointer rounded bg-dark-blue p-1.5 text-3xl transition-all duration-300 hover:scale-105 hover:bg-orange-600" />

@@ -9,7 +9,9 @@ import { CiLinkedin } from "react-icons/ci";
 import { AiFillGithub } from "react-icons/ai";
 import { BsInstagram } from "react-icons/bs";
 import { BsTelegram } from "react-icons/bs";
+import { HiOutlineMail } from "react-icons/hi";
 import { RiTelegramFill } from "react-icons/ri";
+import { HiOutlineClipboardDocumentList } from "react-icons/hi2";
 
 function Navbar() {
   const { activeFilter, setActiveFilter } = useContext(AppContext);
@@ -21,7 +23,11 @@ function Navbar() {
     <>
       <section>
         <header className="header animate__animated animate__fadeInDown fixed z-20 flex w-full items-center justify-center">
-          <nav className={`flex h-full w-full flex-wrap items-center justify-between transition-all duration-300 border-b-4 ${toggle ? "border-orange-400" : "border-wht"} px-5 sm:px-8 md:hidden`} >
+          <nav
+            className={`flex h-full w-full flex-wrap items-center justify-between border-b-4 transition-all duration-300 ${
+              toggle ? "border-orange-400" : "border-wht"
+            } px-5 sm:px-8 md:hidden`}
+          >
             <ul className="flex h-full w-full items-center justify-between gap-3">
               <li>
                 <Link
@@ -78,17 +84,20 @@ function Navbar() {
                 </li>
               ))}
             </ul>
-            <ul>
+            <ul className="flex h-full items-center justify-center gap-3 ">
+              <a href="#" target="_blank" title="View Resume">
+                <HiOutlineClipboardDocumentList className="h-7 w-7 cursor-pointer rounded-md fill-dark-blue p-1 text-wht transition-all duration-300 hover:bg-wht hover:fill-wht hover:text-dark-blue " />
+              </a>
               <li>
                 <Link
                   to={"/Contact"}
                   onClick={() => setActiveFilter("Contact")}
                   // href="#contact"
-                  className={` rounded border-2 px-1.5 py-0.5 uppercase font-poppins text-sm font-semibold leading-6 transition-all duration-500 ${
+                  className={` rounded border-2 px-1.5 py-0.5 font-poppins text-sm font-semibold uppercase leading-6 transition-all duration-300 ${
                     activeFilter === "Contact"
                       ? "bg-white text-indigo-800"
                       : "hover:bg-white hover:text-indigo-800"
-                  }`}
+                  } mb-1`}
                 >
                   Contact
                 </Link>
@@ -112,7 +121,7 @@ function Navbar() {
                 setActiveFilter(item);
                 setToggle(!toggle);
               }}
-              className={`cursor-pointer uppercase rounded font-poppins text-sm font-medium ${
+              className={`cursor-pointer rounded font-poppins text-sm font-medium uppercase ${
                 activeFilter === item
                   ? "bg-white px-1.5 py-0.5 text-sm font-semibold text-indigo-800 "
                   : "hover:bg-white hover:px-1.5 hover:py-0.5 hover:text-sm hover:font-semibold hover:text-indigo-800"
@@ -130,7 +139,7 @@ function Navbar() {
               setActiveFilter("Contact");
               setToggle(!toggle);
             }}
-            className={`cursor-pointer rounded uppercase font-poppins text-sm font-medium ${
+            className={`cursor-pointer rounded font-poppins text-sm font-medium uppercase ${
               activeFilter === "Contact"
                 ? "bg-white px-1.5 py-0.5 text-sm font-semibold text-indigo-800 "
                 : "hover:bg-white hover:px-1.5 hover:py-0.5 hover:text-sm hover:font-semibold hover:text-indigo-800"
@@ -162,6 +171,13 @@ function Navbar() {
                 } bg-dark-blue p-1 text-3xl transition-all duration-300 hover:scale-105 hover:bg-orange-600`}
               />
             </a>
+            <a href="mailto:pkjha187@gmail.com" target="_blank">
+              <HiOutlineMail
+                className={`cursor-pointer rounded ${
+                  toggle ? "visible" : "invisible"
+                } bg-dark-blue p-1 text-3xl transition-all duration-300 hover:scale-105 hover:bg-orange-600`}
+              />
+            </a>     
             <a href="https://www.instagram.com/prab_hat18/" target="_blank">
               <BsInstagram
                 className={`cursor-pointer rounded ${
