@@ -25,7 +25,7 @@ const About = () => {
           <h3 className="animate__animated animate__fadeInDown pt-2 pb-4 text-center font-catamaran text-2xl font-extrabold uppercase leading-3 text-wht transition-all duration-500 sm:text-3xl">
             {`< About />`}
           </h3>
-          <div className="animate__animated animate__fadeIn animate__delay-1s mt-1 flex h-full w-full max-w-4xl flex-col items-center justify-center gap-2 rounded border-t-4 border-orange-500 py-5 px-4 text-sm transition-all duration-500 sm:text-base md:mt-0 md:gap-2 md:rounded-lg md:]hborder-indigo-800 md:bg-gray-200 md:px-10 md:py-10">
+          <div className="animate__animated animate__fadeIn animate__delay-1s mt-1 flex h-full w-full max-w-4xl flex-col items-center justify-center gap-4 rounded border-t-4 border-orange-500 py-5 px-4 text-sm transition-all duration-500 sm:text-base md:mt-0 md:gap-2 md:rounded-lg md:]hborder-indigo-800 md:bg-gray-200 md:px-10 md:py-10">
             <div className="flex items-center justify-start gap-4 flex-col lg:flex-row" >
             <CgFileDocument className="h-20 w-20 text-gray-200 md:text-blue p-1 fill-orange-500 " />
             <p className="max-w-sm text-justify font-poppins text-sm font-medium  text-wht  md:max-w-xl md:text-base md:text-slate-700">
@@ -34,8 +34,7 @@ const About = () => {
               and i'm a{" "}
               <span title="MongoDB ExpressJs React NodeJs" className="font-semibold">Fullstack MERN WebDeveloper</span>,{" "} and
               can help you in Creating And Fixing{" "}
-              <span className="font-semibold ">Front-End</span> of WebApps in
-              React. I have completed my Bachelor's degree in Computer Application in
+              <span className="font-semibold ">Front-End</span> of React based WebApps. I have completed my Bachelor's degree in Computer Application in
               2022 and currently working at Wipro as Scholar Trainee.
             </p>
             </div>
@@ -91,7 +90,7 @@ const About = () => {
                 >
                   Technologies
                 </Link>
-              {" "} page {`/>`}
+              {" "} page {`-`}
             </p>
           </div>
         </div>

@@ -29,7 +29,7 @@ function Navbar() {
             } px-5 sm:px-8 md:hidden`}
           >
             <ul className="flex h-full w-full items-center justify-between gap-3">
-              <li>
+              <li className="h-full w-fit items-center justify-center flex gap-2" >
                 <Link
                   to={"/"}
                   // href="index.html"
@@ -37,10 +37,13 @@ function Navbar() {
                     setActiveFilter("");
                     setToggle(false);
                   }}
-                  className="cursor-pointer border-r-2 border-solid pr-3 font-catamaran text-lg font-black leading-4 transition-all duration-500 hover:text-orange-300"
+                  className="cursor-pointer border-r-2 border-solid pr-3 font-catamaran text-lg font-black leading-6 transition-all duration-500 hover:text-orange-300"
                 >
                   PRABHAT.
                 </Link>
+                <a href="#" target="_blank" title="View Resume">
+                <HiOutlineClipboardDocumentList className="h-7 w-7 cursor-pointer rounded-md fill-dark-blue p-1 text-wht transition-all duration-300 hover:bg-wht hover:fill-wht hover:text-dark-blue " />
+                </a>
               </li>
               <li
                 onClick={() => setToggle(!toggle)}

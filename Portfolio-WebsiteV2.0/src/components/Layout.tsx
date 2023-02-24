@@ -14,6 +14,11 @@ const Layout = () => {
         <main>
             <Outlet />
         </main>
+        {/* <div className='absolute bottom-0 left-1' >
+          <strong className='text-wht text-xxs font-poppins font-normal ' >
+          © 2023 Prabhat | All rights reserved
+          </strong>
+        </div> */}
         <Socials/>
     </>
   )

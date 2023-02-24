@@ -76,7 +76,7 @@ const Contact = () => {
               <textarea
                 required
                 rows={8}
-                className="w-full max-w-md rounded bg-wht py-2 px-3 font-poppins text-sm font-semibold leading-4 text-slate-600 focus:outline-none"
+                className="w-full max-w-md rounded resize-none bg-wht py-2 px-3 font-poppins text-sm font-semibold leading-4 text-slate-600 focus:outline-none"
                 name="Message"
                 placeholder="Message...*"
                 value={contactMessage}

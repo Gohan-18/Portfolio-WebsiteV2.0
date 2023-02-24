@@ -51,7 +51,7 @@ const Projects = () => {
                   <span className=" pb-1 font-poppins text-xs font-medium text-blue">
                     {item.date}
                   </span>
-                  <h4 className="font-poppins text-xs font-medium text-slate-700 sm:text-sm">
+                  <h4 className="font-poppins text-xs text-justify font-medium text-slate-700 sm:text-sm">
                     {item.description}{" "}
                   </h4>
                   <div className="flex w-full flex-wrap items-center justify-start gap-2 pt-5 ">
