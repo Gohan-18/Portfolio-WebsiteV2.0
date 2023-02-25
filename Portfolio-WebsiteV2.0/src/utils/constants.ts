@@ -61,3 +61,48 @@ export const projects = [
     youtubeLink: "https://youtu.be/ULX27zz2LuU",
   },
 ];
+
+export const miniProjects = [
+  {
+    title : "Simple Calculator App",
+    date: "Oct 2022",
+    description: "Just a simple calculator webApp made with the help of HTML, CSS and vanilla Javascript. Again one of the projects of initial learning days. This brushed up some DOM manipulation logic and error handling in the webApp using javascript.",
+    liveLink: "https://prabhat-portfolio-18.netlify.app/projects/Simple-Calculator/index.html",
+    githubLink: "https://github.com/Gohan-18/Web-development/tree/master/Portfolio%20website/projects/Simple-Calculator"
+  },
+  {
+    title : "Simple Weather App",
+    date: "Oct 2022",
+    description: "Just a simple weather webApp made with the help of HTML, CSS and vanilla Javascript. The user have to input the city name they want the weather information about, then it fetches the weather information using OpenWeatherMap API and provides the relevent information to the user.",
+    liveLink: "https://prabhat-portfolio-18.netlify.app/projects/simple-weather/index.html",
+    githubLink: "https://github.com/Gohan-18/Web-development/tree/master/Portfolio%20website/projects/simple-weather"
+  },
+  {
+    title : "Simple Counter App",
+    date: "Oct 2022",
+    description: "Just a simple counter webApp made with the help of HTML, CSS and vanilla Javascript. One of the projects made in my intial days of learning Web Development to get some grasp on basic DOM manipulation and logic building using javascript.",
+    liveLink: "https://prabhat-portfolio-18.netlify.app/projects/simple-counter/index.html",
+    githubLink: "https://github.com/Gohan-18/Web-development/tree/master/Portfolio%20website/projects/simple-counter"
+  },
+  {
+    title : "Random Color Flipper",
+    date: "Oct 2022",
+    description: "This is a randome color flipper webApp made with the help of HTML, CSS and vanilla Javascript. It can produce colors in two style, first is the simple one which produces random color from the local array each time you click on the 'Click Me' button. And the Hex one produces ANY random color along with showing its color code. This helped a lot in getting basics right of DOM manipulation.",
+    liveLink: "https://prabhat-portfolio-18.netlify.app/projects/RandomColorFlipper/index.html",
+    githubLink: "https://github.com/Gohan-18/Web-development/tree/master/Portfolio%20website/projects/RandomColorFlipper"
+  },
+  {
+    title : "NeoGcamp Mark 1",
+    date: "Sept 2022",
+    description: "A CLI app built with nodeJS. This just asks you a few questions related to me. Try it if you want to know how much do you really know me!!",
+    liveLink: "https://replit.com/@PrabhatJha1/NeoGCamp-Mark1#index.js",
+    githubLink: "https://github.com/Gohan-18/NeoGCamp-Mark1"
+  },
+  {
+    title : "NeoGcamp Mark 2",
+    date: "Sept 2022",
+    description: "Are you a fan of minions? Did you know that the gibberish they say is an actual language. Use the translator to convert your text from English to Minion speak or Banana language.",
+    liveLink: "https://prabhat-portfolio-18.netlify.app/projects/simple-counter/index.html",
+    githubLink: "https://github.com/Gohan-18/Web-development/tree/master/Portfolio%20website/projects/simple-counter"
+  },
+]
