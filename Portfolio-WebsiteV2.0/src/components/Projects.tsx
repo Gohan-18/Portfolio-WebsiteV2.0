@@ -88,7 +88,7 @@ const Projects = () => {
                     href={item.githubLink}
                     target="_blank"
                   >
-                    <AiFillGithub className="h-8 w-8 absolute cursor-pointer -top-4 left-5 rounded-md bg-slate-600 p-1.5 text-wht transition-all duration-300 hover:bg-blue" />{" "}
+                    <AiFillGithub className="h-8 w-8 absolute cursor-pointer -top-4 left-5 rounded-md bg-slate-600 p-1.5 text-wht transition-all duration-300 hover:bg-orange-500" />{" "}
                   </a>
                   <div className="" >
                     <a

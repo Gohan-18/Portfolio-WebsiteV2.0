@@ -110,7 +110,7 @@ function Navbar() {
                   to={"/Contact"}
                   onClick={() => setActiveFilter("Contact")}
                   // href="#contact"
-                  className={` rounded border-2 px-1.5 py-0.5 font-poppins text-sm font-semibold uppercase leading-6 transition-all duration-300 ${
+                  className={` rounded border-2 px-1.5 py-0.5 font-poppins text-sm font-semibold uppercase leading-6 transition-all duration-500 ${
                     activeFilter === "Contact"
                       ? "bg-white text-indigo-800"
                       : "hover:bg-white hover:text-indigo-800"
