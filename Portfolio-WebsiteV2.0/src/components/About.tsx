@@ -55,7 +55,7 @@ const About = () => {
                 {/* I have completed my Bachelor's degree in Computer Application in
                 2022 and currently working at Wipro as Scholar Trainee. */}{" "}
                 I have got a knack of Design and Aesthetic, add proficient
-                knowledge of using tools like ReactJs, Redux-Toolkit with it and
+                knowledge of using tools like ReactJs, Figma, Redux-Toolkit with it and
                 Wlah!!! you have got an awesome Front-End developer, who can not
                 only create Front-End for your WebApp(s), but also make them
                 look good.
