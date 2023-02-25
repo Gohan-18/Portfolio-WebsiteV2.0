@@ -95,7 +95,7 @@ const Projects = () => {
                       title="Live Project"
                       href={item.liveLink}
                       target="_blank"
-                      className="font-poppins text-base font-semibold text-slate-600 transition-all duration-300 hover:text-orange-500 sm:text-lg "
+                      className="font-poppins text-base font-semibold text-slate-700 transition-all duration-300 hover:text-orange-500 sm:text-lg "
                     >
                       {item.title}{" "}
                     </a>
@@ -103,7 +103,7 @@ const Projects = () => {
                   <span className=" pb-1 font-poppins text-xs font-medium text-blue">
                     {item.date}
                   </span>
-                  <h4 className="font-poppins text-xs text-justify font-medium text-slate-600 md:text-xms">
+                  <h4 className="font-poppins text-xs text-justify font-medium text-slate-700 md:text-xms">
                     {item.description}{" "}
                   </h4>
                 </div>
