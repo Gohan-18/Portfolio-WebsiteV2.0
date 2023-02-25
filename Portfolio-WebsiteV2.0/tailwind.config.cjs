@@ -33,6 +33,9 @@ module.exports = {
       },
       borderRadius: {
         'custom' : '80px'
+      },
+      screens: {
+        'md' : '850px'
       }
     },
   },

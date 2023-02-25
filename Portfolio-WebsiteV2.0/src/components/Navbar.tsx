@@ -70,7 +70,21 @@ function Navbar() {
                   PRABHAT.
                 </Link>
               </li>
-              {["About", "Technologies", "Projects"].map((item, index) => (
+              <li>
+                  <Link
+                    to={`/`}
+                    // href={`#${item}`}
+                    onClick={() => setActiveFilter("")}
+                    className={`cursor-pointer rounded font-poppins text-xs font-medium ${
+                      activeFilter === ""
+                        ? "bg-white px-1.5 py-0.5 text-sm font-semibold text-indigo-800 "
+                        : "hover:bg-white hover:px-1.5 hover:py-0.5 hover:text-sm hover:font-semibold hover:text-indigo-800"
+                    } text-center leading-6 transition-all duration-500 `}
+                  >
+                    Home
+                  </Link>
+                </li>
+              {[ "About", "Technologies", "Projects"].map((item, index) => (
                 <li key={index}>
                   <Link
                     to={`/${item}`}
@@ -116,6 +130,22 @@ function Navbar() {
             toggle ? " h-screen" : "h-0"
           } border-b-8 border-wht transition-all duration-500 `}
         >
+          <Link
+              to={`/`}
+              onClick={() => {
+                setActiveFilter('');
+                setToggle(!toggle);
+              }}
+              className={`cursor-pointer rounded font-poppins text-sm font-medium uppercase ${
+                activeFilter === ""
+                  ? "bg-white px-1.5 py-0.5 text-sm font-semibold text-indigo-800 "
+                  : "hover:bg-white hover:px-1.5 hover:py-0.5 hover:text-sm hover:font-semibold hover:text-indigo-800"
+              } text-center leading-6 transition-all duration-300 ${
+                toggle ? "visible" : "invisible"
+              } `}
+            >
+              Home
+          </Link>
           {["About", "Technologies", "Projects"].map((item, index) => (
             <Link
               key={index}
