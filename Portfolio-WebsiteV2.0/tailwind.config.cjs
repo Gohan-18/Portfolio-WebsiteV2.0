@@ -29,6 +29,9 @@ module.exports = {
         'xms' : '16px',
         'xxs' : '9px',
         'xxxs': '9px'
+      },
+      borderRadius: {
+        'custom' : '80px'
       }
     },
   },

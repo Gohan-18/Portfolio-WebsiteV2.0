@@ -3,7 +3,7 @@ export const projects = [
     title: "Aurórá - An online YouTube Video Player",
     date: "Feb 2023",
     description:
-      "Aurórá, is an online YouTube video player made using ReactJs and Material UI v5. It uses YouTube API to fetch YouTube videos and channels. Users can search for their favourite creator's channel and videos, play them and can also login through super fast and reliable Firebase's Google authentication, add videos to the watchlist to save them from hassle of searching that favourite video again in future to watch, and login from any device to access their watchlist(Firestore's amazing!! Isn't it!!). The WebApp has minimal design and UI is kept similar to YouTube's UI so that the users don't get lost in figuring out how to play/pause a video instead of enjoying them. Chreers!",
+      "Aurórá - an online YouTube video player made using ReactJs and Material UI v5. It uses YouTube API to fetch YouTube videos and channels. Users can search for their favourite creator's channel and videos, play them and can also login through super fast and reliable Firebase's Google authentication, add videos to the watchlist to save them from hassle of searching that favourite video again in future to watch, and login from any device to access their watchlist(Firestore's amazing!! Isn't it!!?). The WebApp has minimal design and UI is kept similar to YouTube's UI so that the users don't get lost in figuring out how to play/pause a video instead of enjoying them. Chreers!",
     techStack: [
       "React",
       "Javascript",
@@ -24,7 +24,7 @@ export const projects = [
     title: "ShopMore - An online Marketplace",
     date: "Jan 2023",
     description:
-      "ShopMore, an E-Commerce website made using ReactJs and Material UI v5. The user can search for the product through searchbar, add them to cart/wishlist and checkout from the cart. Before checkout, they'll have to login as checkout page is protected using Protected Route. (Note - Followed along DevsNest Youtube bootcamp to make base of the WebApp). Features added by me : Responsivness for smaller devices, Bottom Navigation, Entire My Account section, add/remove from Wishlist functionality, user profile viewer, Last Order detail page, Contact Me section, Single Product Detail page. Guest user Login credentials : Email id - robin187@gmail.com, Password - robin1234.",
+      "ShopMore - an E-Commerce website made using ReactJs and Material UI v5. The user can search for the product through searchbar, add them to cart/wishlist and checkout from the cart. Before checkout, they'll have to login as checkout page is protected using Protected Route. (Note - Followed along DevsNest Youtube bootcamp to make base of the WebApp). Features added by me : Responsivness for smaller devices, Bottom Navigation, Entire My Account section, add/remove from Wishlist functionality, user profile viewer, Last Order detail page, Contact Me section, Single Product Detail page. Guest user Login credentials : Email id - robin187@gmail.com, Password - robin1234.",
     techStack: [
       "React",
       "Javascript",
@@ -64,45 +64,61 @@ export const projects = [
 
 export const miniProjects = [
   {
-    title : "Simple Calculator App",
+    title: "Simple Weather App",
     date: "Oct 2022",
-    description: "Just a simple calculator webApp made with the help of HTML, CSS and vanilla Javascript. Again one of the projects of initial learning days. This brushed up some DOM manipulation logic and error handling in the webApp using javascript.",
-    liveLink: "https://prabhat-portfolio-18.netlify.app/projects/Simple-Calculator/index.html",
-    githubLink: "https://github.com/Gohan-18/Web-development/tree/master/Portfolio%20website/projects/Simple-Calculator"
+    description:
+      "It's weather webApp made with the help of HTML, CSS and vanilla Javascript. The user have to input the city name they want the weather information about, then it fetches the weather information using OpenWeatherMap API and provides the relevent information to the user.",
+    liveLink:
+      "https://prabhat-portfolio-18.netlify.app/projects/simple-weather/index.html",
+    githubLink:
+      "https://github.com/Gohan-18/Web-development/tree/master/Portfolio%20website/projects/simple-weather",
   },
   {
-    title : "Simple Weather App",
+    title: "Calculator App",
     date: "Oct 2022",
-    description: "Just a simple weather webApp made with the help of HTML, CSS and vanilla Javascript. The user have to input the city name they want the weather information about, then it fetches the weather information using OpenWeatherMap API and provides the relevent information to the user.",
-    liveLink: "https://prabhat-portfolio-18.netlify.app/projects/simple-weather/index.html",
-    githubLink: "https://github.com/Gohan-18/Web-development/tree/master/Portfolio%20website/projects/simple-weather"
+    description:
+      "A simple calculator webApp made with the help of HTML, CSS and vanilla Javascript. Again one of the projects of initial learning days. This brushed up some DOM manipulation logic and error handling in the webApp using javascript.",
+    liveLink:
+      "https://prabhat-portfolio-18.netlify.app/projects/Simple-Calculator/index.html",
+    githubLink:
+      "https://github.com/Gohan-18/Web-development/tree/master/Portfolio%20website/projects/Simple-Calculator",
   },
   {
-    title : "Simple Counter App",
+    title: "Random Color Flipper",
     date: "Oct 2022",
-    description: "Just a simple counter webApp made with the help of HTML, CSS and vanilla Javascript. One of the projects made in my intial days of learning Web Development to get some grasp on basic DOM manipulation and logic building using javascript.",
-    liveLink: "https://prabhat-portfolio-18.netlify.app/projects/simple-counter/index.html",
-    githubLink: "https://github.com/Gohan-18/Web-development/tree/master/Portfolio%20website/projects/simple-counter"
+    description:
+      "This is a randome color flipper webApp made with the help of HTML, CSS and vanilla Javascript. It can produce colors in two style, first is the simple one which produces random color from the local array each time you click on the 'Click Me' button. And the Hex one produces ANY random color along with showing its color code. This helped a lot in getting basics right of DOM manipulation.",
+    liveLink:
+      "https://prabhat-portfolio-18.netlify.app/projects/RandomColorFlipper/index.html",
+    githubLink:
+      "https://github.com/Gohan-18/Web-development/tree/master/Portfolio%20website/projects/RandomColorFlipper",
   },
   {
-    title : "Random Color Flipper",
+    title: "Basic Counter App",
     date: "Oct 2022",
-    description: "This is a randome color flipper webApp made with the help of HTML, CSS and vanilla Javascript. It can produce colors in two style, first is the simple one which produces random color from the local array each time you click on the 'Click Me' button. And the Hex one produces ANY random color along with showing its color code. This helped a lot in getting basics right of DOM manipulation.",
-    liveLink: "https://prabhat-portfolio-18.netlify.app/projects/RandomColorFlipper/index.html",
-    githubLink: "https://github.com/Gohan-18/Web-development/tree/master/Portfolio%20website/projects/RandomColorFlipper"
+    description:
+      "Just a basic counter webApp made with the help of HTML, CSS and vanilla Javascript. One of the projects made in my intial days of learning Web Development to get some grasp on basic DOM manipulation and logic building using javascript.",
+    liveLink:
+      "https://prabhat-portfolio-18.netlify.app/projects/simple-counter/index.html",
+    githubLink:
+      "https://github.com/Gohan-18/Web-development/tree/master/Portfolio%20website/projects/simple-counter",
   },
   {
-    title : "NeoGcamp Mark 1",
+    title: "NeoGcamp Mark 1",
     date: "Sept 2022",
-    description: "A CLI app built with nodeJS. This just asks you a few questions related to me. Try it if you want to know how much do you really know me!!",
+    description:
+      "A CLI app built with nodeJS. This just asks you a few questions related to me. Try it if you want to know how much do you really know me!!",
     liveLink: "https://replit.com/@PrabhatJha1/NeoGCamp-Mark1#index.js",
-    githubLink: "https://github.com/Gohan-18/NeoGCamp-Mark1"
+    githubLink: "https://github.com/Gohan-18/NeoGCamp-Mark1",
   },
   {
-    title : "NeoGcamp Mark 2",
+    title: "NeoGcamp Mark 2",
     date: "Sept 2022",
-    description: "Are you a fan of minions? Did you know that the gibberish they say is an actual language. Use the translator to convert your text from English to Minion speak or Banana language.",
-    liveLink: "https://prabhat-portfolio-18.netlify.app/projects/simple-counter/index.html",
-    githubLink: "https://github.com/Gohan-18/Web-development/tree/master/Portfolio%20website/projects/simple-counter"
+    description:
+      "Are you a fan of minions? Did you know that the gibberish they say is an actual language!! Isn't it interesting!!? Use the translator to convert your text from English to Minion speak or Banana language.",
+    liveLink:
+      "https://prabhat-portfolio-18.netlify.app/projects/Banana-NeoGcamp/index.html",
+    githubLink:
+      "https://github.com/Gohan-18/Web-development/tree/master/Portfolio%20website/projects/Banana-NeoGcamp",
   },
-]
+];
