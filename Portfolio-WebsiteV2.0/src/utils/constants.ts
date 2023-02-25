@@ -18,7 +18,7 @@ export const projects = [
     ],
     liveLink: "https://aurora-onlinevideoplayer-prabhat18.netlify.app/",
     gitHubLink: "https://github.com/Gohan-18/Video-Player",
-    youtubeLink: "https://www.youtube.com/watch?v=5mJBauLcYp4&t=1648s",
+    youtubeLink: "https://youtu.be/7IwrTuV17l0",
   },
   {
     title: "ShopMore - An online Marketplace",
@@ -54,7 +54,7 @@ export const projects = [
     title: "Chróma - An Image Searching App",
     date: "Nov 2022",
     description:
-      "It's an image searching webApp made with HTML, CSS and vanilla JavaScript. Here the user can search for any image of their liking by typing the desired keyword in the input box on the home page. It uses UnSplash API to fetch the searched image and show it to the user.",
+      "Chróma is an image searching webApp made with HTML, CSS and vanilla JavaScript. Here the user can search for any image of their liking by typing the desired keyword in the input box on the home page. After the user types and searches for any keyword, the webapp takes user to the search page where then it shows the searched result. It uses UnSplash API to fetch the searched image and show it to the user.",
     techStack: ["Javascript", "HTML", "CSS", "NodeJs"],
     liveLink: "https://chroma-animagesearchingapp.netlify.app/",
     gitHubLink: "https://github.com/Gohan-18/Gallary-App/tree/main/Gallary-App",
