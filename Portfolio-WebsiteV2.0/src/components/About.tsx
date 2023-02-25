@@ -32,7 +32,7 @@ const About = () => {
               Hey there, 👋 my name is{" "}
               <span className="font-semibold text-orange-400 ">Prabhat</span>{" "}
               and i'm a{" "}
-              <span title="MongoDB ExpressJs React NodeJs" className="font-semibold">Fullstack MERN WebDeveloper</span>,{" "} and
+              <span title="MongoDB ExpressJs React NodeJs" className="font-semibold">Fullstack MERN WebDeveloper</span>{" "} who
               can help you in Creating And Fixing{" "}
               <span className="font-semibold ">Front-End</span> of React based WebApps. I have completed my Bachelor's degree in Computer Application in
               2022 and currently working at Wipro as Scholar Trainee.

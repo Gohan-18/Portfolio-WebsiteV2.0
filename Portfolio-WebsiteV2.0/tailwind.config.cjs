@@ -26,7 +26,7 @@ module.exports = {
       },
       fontSize: {
         'icons' : '60px',
-        'xms' : '14px',
+        'xms' : '16px',
         'xxs' : '9px',
         'xxxs': '9px'
       }
