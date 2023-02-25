@@ -17,6 +17,7 @@ module.exports = {
         'small-screen-banner' : "url('./src/assets/medium-screen-banner.png')",
         'hero-image' : "url('./src/assets/Hero-Image.png')",
         'bubble-bg' : "url('./src/assets/Bubble-bg.svg')",
+        'polygon-bg' : "url('./src/assets/Polygon-BG-01.jpeg')",
       },
       colors: {
         'blue': '#4e44ab',
