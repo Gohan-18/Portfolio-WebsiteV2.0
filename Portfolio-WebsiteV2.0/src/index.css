@@ -61,6 +61,10 @@ a {
   text-shadow: 2px 2px 8px #111;
 }
 
+.shadow {
+  box-shadow: 2px 4px 8px #333333;
+}
+
 .hero-mini-text {
   text-shadow: 4px 2px 4px #111;
 }

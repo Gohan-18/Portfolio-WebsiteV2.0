@@ -22,7 +22,7 @@ const Projects = () => {
             return (
               <div
                 key={item.title}
-                className="animate__animated animate__fadeIn animate__delay-1s flex w-full max-w-4xl flex-wrap items-start justify-start gap-6 rounded border-orange-500 bg-wht py-6 px-4 transition-all duration-500 odd:border-r-4 even:border-l-4 md:odd:border-r-8 even:flex-row-reverse md:even:border-l-8 md:rounded-lg md:bg-gray-200 md:px-10 md:py-10"
+                className="animate__animated animate__fadeIn animate__delay-1s flex w-full max-w-4xl flex-wrap items-start justify-start gap-6 rounded border-orange-400 bg-wht py-6 px-4 transition-all duration-500 odd:border-r-4 even:border-l-4 md:odd:border-r-8 even:flex-row-reverse md:even:border-l-8 md:rounded-lg md:bg-gray-200 md:px-10 md:py-10"
               >
                 <div className="flex h-full w-full items-center justify-center bg-wht lg:w-3/6">
                   {/* <h4 className="h-full w-full bg-wht p-20 font-poppins text-lg font-semibold text-slate-700 "></h4> */}
@@ -30,12 +30,12 @@ const Projects = () => {
                 </div>
 
                 <div className="flex flex-1 flex-col items-start justify-center gap-1 ">
-                  <div>
+                  <div  >
                     <a
                       title="Live Project"
                       href={item.liveLink}
                       target="_blank"
-                      className="font-poppins text-base font-semibold text-slate-700 transition-all duration-300 hover:text-orange-500 sm:text-lg "
+                      className="font-poppins text-base font-semibold text-slate-700 transition-all duration-500 hover:text-orange-500 sm:text-lg "
                     >
                       {item.title}{" "}
                     </a>
@@ -45,13 +45,13 @@ const Projects = () => {
                       href={item.gitHubLink}
                       target="_blank"
                     >
-                      <AiFillGithub className="h-4 w-8 cursor-pointer rounded-full bg-slate-600 p-0.5 text-wht transition-all duration-300 hover:bg-orange-500 " />{" "}
+                      <AiFillGithub className="h-4 w-8 cursor-pointer rounded-full bg-slate-600 p-0.5 text-wht transition-all duration-500 hover:bg-orange-500 " />{" "}
                     </a>
                   </div>
                   <span className=" pb-1 font-poppins text-xs font-medium text-blue">
                     {item.date}
                   </span>
-                  <h4 className="font-poppins text-xs text-justify font-medium text-slate-700 md:text-xms">
+                  <h4 className="font-poppins text-xs text-justify font-medium text-slate-600 md:text-xms">
                     {item.description}{" "}
                   </h4>
                   <div className="flex w-full flex-wrap items-center justify-start gap-2 pt-5 ">
@@ -80,7 +80,7 @@ const Projects = () => {
               return (
                 <div 
                   key={item.title}
-                  className="animate__animated animate__fadeIn animate__delay-1s relative flex flex-col w-full flex-wrap items-center justify-start gap-1 rounded border-orange-500 border-4 bg-wht py-6 px-4 transition-all duration-500 rounded-tr-custom md:bg-gray-200 md:px-8"
+                  className="animate__animated animate__fadeIn animate__delay-1s  relative flex flex-col w-full flex-wrap items-center justify-start gap-1 rounded border-orange-400 border-4 bg-wht py-6 px-4 transition-all duration-500 rounded-tr-custom md:bg-gray-200 md:px-8"
                 >
                   <a
                     className="flex h-fit w-fit "
@@ -88,14 +88,14 @@ const Projects = () => {
                     href={item.githubLink}
                     target="_blank"
                   >
-                    <AiFillGithub className="h-8 w-8 absolute cursor-pointer -top-4 left-5 rounded-md bg-slate-600 p-1.5 text-wht transition-all duration-300 hover:bg-orange-500" />{" "}
+                    <AiFillGithub className="h-8 w-8 absolute cursor-pointer -top-4 left-5 rounded-md bg-slate-600 hover:scale-110 p-1.5 text-wht transition-all duration-500 hover:bg-orange-500" />{" "}
                   </a>
                   <div className="" >
                     <a
                       title="Live Project"
                       href={item.liveLink}
                       target="_blank"
-                      className="font-poppins text-base font-semibold text-slate-700 transition-all duration-300 hover:text-orange-500 sm:text-lg "
+                      className="font-poppins text-base font-semibold text-slate-700 transition-all duration-500 hover:text-orange-500 sm:text-lg "
                     >
                       {item.title}{" "}
                     </a>
@@ -103,7 +103,7 @@ const Projects = () => {
                   <span className=" pb-1 font-poppins text-xs font-medium text-blue">
                     {item.date}
                   </span>
-                  <h4 className="font-poppins text-xs text-justify font-medium text-slate-700 md:text-xms">
+                  <h4 className="font-poppins text-xs text-justify leading-4 font-medium text-slate-600 md:text-xms">
                     {item.description}{" "}
                   </h4>
                 </div>
