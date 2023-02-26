@@ -67,7 +67,7 @@ export const miniProjects = [
     title: "Simple Weather App",
     date: "Oct 2022",
     description:
-      "It's weather webApp made with the help of HTML, CSS and vanilla Javascript. The user have to input the city name they want the weather information about, then it fetches the weather information using OpenWeatherMap API and provides the relevent information to the user.",
+      "It's a weather webApp made using HTML, CSS and vanilla Javascript. The user has to input the city name they want the weather information about, then it fetches the weather information using OpenWeatherMap API and provides the relevent information to the user.",
     liveLink:
       "https://prabhat-portfolio-18.netlify.app/projects/simple-weather/index.html",
     githubLink:
