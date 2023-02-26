@@ -41,7 +41,7 @@ function Navbar() {
                 >
                   PRABHAT.
                 </Link>
-                <a href="#" target="_blank" title="View Resume">
+                <a href="https://drive.google.com/file/d/1-31m1wbfBMLbaldv2zlvQMMJPOlkYP1L/view?usp=drivesdk" target="_blank" title="View Resume">
                 <HiOutlineClipboardDocumentList className="h-7 w-7 cursor-pointer rounded-md fill-dark-blue p-1 text-wht transition-all duration-300 hover:bg-wht hover:fill-wht hover:text-dark-blue " />
                 </a>
               </li>
@@ -102,7 +102,7 @@ function Navbar() {
               ))}
             </ul>
             <ul className="flex h-full items-center justify-center gap-3 ">
-              <a href="#" target="_blank" title="View Resume">
+              <a href="https://drive.google.com/file/d/1-31m1wbfBMLbaldv2zlvQMMJPOlkYP1L/view?usp=drivesdk" target="_blank" title="View Resume">
                 <HiOutlineClipboardDocumentList className="h-7 w-7 cursor-pointer rounded-md fill-dark-blue p-1 text-wht transition-all duration-500 hover:bg-wht hover:fill-wht hover:text-dark-blue " />
               </a>
               <li>
