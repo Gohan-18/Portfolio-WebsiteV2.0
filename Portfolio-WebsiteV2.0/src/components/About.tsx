@@ -24,16 +24,18 @@ const About = () => {
     <>
       <section className="z-5 padding-top flex h-full w-full flex-col items-center justify-center bg-dark-blue px-4  pb-12 leading-6 transition-all duration-500 sm:px-10 md:px-14  ">
         <div className=" flex h-full w-full flex-col items-center justify-center">
-          <h3 className="animate__animated animate__fadeInDown pt-2 pb-4 text-center font-catamaran text-2xl font-extrabold uppercase leading-3 text-wht transition-all duration-500 sm:text-3xl">
+          <h3 className="animate__animated animate__fadeInDown pt-2 pb-4 md:pb-5 text-center font-catamaran text-2xl font-extrabold uppercase leading-3 text-wht transition-all duration-500 sm:text-3xl">
             {`< About />`}
           </h3>
-          <div className="animate__animated animate__fadeIn animate__delay-1s md:]hborder-indigo-800 mt-1 flex h-full w-full max-w-4xl flex-col items-center justify-center gap-4 rounded border-t-4 md:border-t-8 border-orange-400 md:border-orange-500 py-5 px-4 text-sm transition-all duration-500 sm:text-base md:mt-0 md:gap-2 md:rounded-lg md:bg-gray-200 md:px-10 md:py-10">
+          <div className="animate__animated animate__fadeIn animate__delay-1s mt-1 flex h-full w-full max-w-4xl flex-col items-center justify-center gap-4 rounded border-t-4 border-orange-400 py-5 px-4 text-sm transition-all duration-500 sm:text-base md:mt-0 md:gap-2 md:rounded-lg md:border-t-8 md:border-orange-500 md:bg-gray-200 md:px-10 md:py-10">
             <div className="flex flex-col items-center justify-start gap-4 lg:flex-row">
               {/* <CgFileDocument className="h-20 w-20 text-gray-200 md:text-blue p-1 fill-orange-500 " /> */}
               <RiProfileLine className="h-20 w-20 fill-wht p-2 text-gray-200 md:fill-blue " />
               <p className="max-w-sm text-justify font-poppins text-sm font-medium  text-wht  md:max-w-xl md:text-base md:text-slate-700">
                 Hey there, 👋 my name is{" "}
-                <span className="font-semibold text-orange-400 md:text-orange-600">Prabhat</span>{" "}
+                <span className="font-semibold text-orange-400 md:text-orange-600">
+                  Prabhat
+                </span>{" "}
                 and i'm a{" "}
                 <span
                   title="MongoDB ExpressJs React NodeJs"
@@ -55,18 +57,18 @@ const About = () => {
                 {/* I have completed my Bachelor's degree in Computer Application in
                 2022 and currently working at Wipro as Scholar Trainee. */}{" "}
                 I have got a knack of Design and Aesthetic, add proficient
-                knowledge of using tools like ReactJs, Figma, Redux-Toolkit with it and
-                Wlah!!! you have got an awesome Front-End developer, who can not
-                only create Front-End for your WebApp(s), but also make them
-                look good.
+                knowledge of using tools like ReactJs, Figma, Redux-Toolkit with
+                it and Wlah!!! you have got an awesome Front-End developer, who
+                can not only create Front-End for your WebApp(s), but also make
+                them look good.
               </p>
             </div>
             <div className="flex flex-col items-center justify-start gap-4 lg:flex-row">
               {/* <CgStyle className="h-20 w-20 text-gray-200 md:text-blue p-1 fill-orange-500 "/> */}
-              <TbCertificate className="h-20 w-20 text-wht md:text-blue p-2  " />
+              <TbCertificate className="h-20 w-20 p-2 text-wht md:text-blue  " />
               <p className="max-w-sm text-justify font-poppins  text-sm font-medium text-wht md:max-w-xl md:text-base md:text-slate-700">
-                I completed my Bachelor's degree in Computer Application in
-                2022 and currently working at Wipro as Scholar Trainee.
+                I completed my Bachelor's degree in Computer Application in 2022
+                and currently working at Wipro as Scholar Trainee.
               </p>
             </div>
             {/* <p className="max-w-sm text-center font-poppins  font-medium capitalize text-wht text-sm md:max-w-lg md:text-base md:text-slate-700">
@@ -80,7 +82,7 @@ const About = () => {
               <span className="font-semibold">Material ui v5/Tailwind</span>.
             </p> */}
             <div className="flex flex-col items-center justify-start gap-4 lg:flex-row">
-              <BiSearchAlt className="h-20 w-20 fill-orange-400 md:fill-orange-600 p-2.5 text-blue " />
+              <BiSearchAlt className="h-20 w-20 fill-orange-400 p-2.5 text-blue md:fill-orange-600 " />
               <p className="max-w-sm text-justify font-poppins text-sm font-medium  text-wht md:max-w-xl md:text-base md:text-slate-700">
                 Right now I am in Hunt for Front-End opportunities (preferably
                 around React tech stack). So, if you are an organisation with
