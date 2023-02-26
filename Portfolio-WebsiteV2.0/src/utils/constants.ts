@@ -74,6 +74,16 @@ export const miniProjects = [
       "https://github.com/Gohan-18/Web-development/tree/master/Portfolio%20website/projects/simple-weather",
   },
   {
+    title: "Portfolio Website v1.0",
+    date: "Oct 2022",
+    description:
+      "My first personal portfolio website, created as a part of NeoGcamp assignment to show my dev career to the people and was made using HTML, CSS and vanilla Javascript. This is the base upon which i improved and created this v2.0.",
+    liveLink:
+      "https://prabhat-portfolio-18.netlify.app/index.html",
+    githubLink:
+      "https://github.com/Gohan-18/Web-development/tree/master/Portfolio%20website/",
+  },
+  {
     title: "Calculator App",
     date: "Oct 2022",
     description:
@@ -104,15 +114,7 @@ export const miniProjects = [
       "https://github.com/Gohan-18/Web-development/tree/master/Portfolio%20website/projects/simple-counter",
   },
   {
-    title: "NeoGcamp Mark 1",
-    date: "Sept 2022",
-    description:
-      "A CLI app built with nodeJS. This just asks you a few questions related to me. Try it if you want to know how much do you really know me!!",
-    liveLink: "https://replit.com/@PrabhatJha1/NeoGCamp-Mark1#index.js",
-    githubLink: "https://github.com/Gohan-18/NeoGCamp-Mark1",
-  },
-  {
-    title: "NeoGcamp Mark 2",
+    title: "NeoGcamp Minions Translator",
     date: "Sept 2022",
     description:
       "Are you a fan of minions? Did you know that the gibberish they say is an actual language!! Isn't it interesting!!? Use the translator to convert your text from English to Minion speak or Banana language.",

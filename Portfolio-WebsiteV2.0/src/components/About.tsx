@@ -27,13 +27,13 @@ const About = () => {
           <h3 className="animate__animated animate__fadeInDown pt-2 pb-4 text-center font-catamaran text-2xl font-extrabold uppercase leading-3 text-wht transition-all duration-500 sm:text-3xl">
             {`< About />`}
           </h3>
-          <div className="animate__animated animate__fadeIn animate__delay-1s md:]hborder-indigo-800 mt-1 flex h-full w-full max-w-4xl flex-col items-center justify-center gap-4 rounded border-t-4 border-orange-500 py-5 px-4 text-sm transition-all duration-500 sm:text-base md:mt-0 md:gap-2 md:rounded-lg md:bg-gray-200 md:px-10 md:py-10">
+          <div className="animate__animated animate__fadeIn animate__delay-1s md:]hborder-indigo-800 mt-1 flex h-full w-full max-w-4xl flex-col items-center justify-center gap-4 rounded border-t-4 md:border-t-8 border-orange-500 py-5 px-4 text-sm transition-all duration-500 sm:text-base md:mt-0 md:gap-2 md:rounded-lg md:bg-gray-200 md:px-10 md:py-10">
             <div className="flex flex-col items-center justify-start gap-4 lg:flex-row">
               {/* <CgFileDocument className="h-20 w-20 text-gray-200 md:text-blue p-1 fill-orange-500 " /> */}
               <RiProfileLine className="h-20 w-20 fill-wht p-2 text-gray-200 md:fill-blue " />
               <p className="max-w-sm text-justify font-poppins text-sm font-medium  text-wht  md:max-w-xl md:text-base md:text-slate-700">
                 Hey there, 👋 my name is{" "}
-                <span className="font-semibold text-orange-400 ">Prabhat</span>{" "}
+                <span className="font-semibold text-orange-500 ">Prabhat</span>{" "}
                 and i'm a{" "}
                 <span
                   title="MongoDB ExpressJs React NodeJs"

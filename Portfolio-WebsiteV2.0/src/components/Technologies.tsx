@@ -31,7 +31,7 @@ const Technologies = () => {
           </h3>
 
           {/* <div className="animate__animated animate__fadeIn animate__delay-1s flex h-full w-full max-w-4xl flex-wrap flex-col items-center justify-center rounded-xl  border-indigo-800 bg-gray-300 p-8"> */}
-          <div className="animate__animated animate__fadeIn animate__delay-1s flex h-full w-full max-w-4xl  flex-col  items-center justify-center gap-1 rounded border-t-4 border-orange-500 bg-wht py-6 px-4 text-sm transition-all duration-500 sm:text-base md:gap-3 md:rounded-lg md:bg-gray-200 md:px-10 md:py-10 lg:flex-row">
+          <div className="animate__animated animate__fadeIn animate__delay-1s flex h-full w-full max-w-4xl  flex-col  items-center justify-center gap-1 rounded border-t-4 md:border-t-8 border-orange-400 bg-wht py-6 px-4 text-sm transition-all duration-500 sm:text-base md:gap-3 md:rounded-lg md:bg-gray-200 md:px-10 md:py-10 lg:flex-row">
             <div className="animate__animated animate__fadeIn animate__delay-1s md:w-lg  grid w-full max-w-sm grid-cols-3 grid-rows-4 items-center justify-items-center gap-6 border-b-4 border-indigo-800 px-4 pt-4 pb-7 lg:w-1/2 lg:border-b-0 lg:border-r-4">
               
               <div className="group relative flex w-fit h-full items-start justify-start transition-all duration-300">

@@ -80,7 +80,7 @@ const Projects = () => {
               return (
                 <div 
                   key={item.title}
-                  className="animate__animated animate__fadeIn animate__delay-1s  relative flex flex-col w-full flex-wrap items-center justify-start gap-1 rounded border-orange-400 border-4 bg-wht py-6 px-4 transition-all duration-500 rounded-tr-custom md:bg-gray-200 md:px-8"
+                  className="animate__animated animate__fadeIn animate__delay-1s  relative flex flex-col w-full flex-wrap items-start justify-start gap-1 rounded border-orange-400 border-4 bg-wht py-6 px-4 transition-all duration-500 rounded-tr-custom md:bg-gray-200 md:px-8"
                 >
                   <a
                     className="flex h-fit w-fit "
