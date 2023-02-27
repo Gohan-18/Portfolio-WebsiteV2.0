@@ -49,9 +49,9 @@ const Header = () => {
             </button>
           </div>
 
-          <div className="hidden h-full w-full items-center justify-center pb-14  lg:flex lg:w-1/2">
-            <span className=" w-full p-5  ">
-              <img src={HeroImg}  alt="Hero image" />
+          <div className="animate__animated animate__fadeIn hidden h-full w-full items-center justify-center pb-14  lg:flex lg:w-1/2">
+            <span className=" animate__animated animate__fadeIn w-full p-5  ">
+              <img src={HeroImg} className="animate__animated animate__fadeIn"  alt="Hero image" />
             </span>
           </div>
           <div className="fixed bottom-0 left-1 hidden rounded-sm md:flex">
