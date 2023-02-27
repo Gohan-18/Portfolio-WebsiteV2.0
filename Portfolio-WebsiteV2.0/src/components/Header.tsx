@@ -49,7 +49,7 @@ const Header = () => {
             </button>
           </div>
 
-          <div className="animate__animated animate__fadeIn hidden h-full w-full items-center justify-center pb-14  lg:flex lg:w-1/2">
+          <div className="hidden h-full w-full items-center justify-center pb-14  lg:flex lg:w-1/2">
             <span>
               <img src={HeroImg} alt="Hero image" />
             </span>
