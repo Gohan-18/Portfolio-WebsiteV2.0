@@ -29,7 +29,7 @@ function Navbar() {
             } px-5 sm:px-8 md:hidden`}
           >
             <ul className="flex h-full w-full items-center justify-between gap-3">
-              <li className="h-full w-fit items-center justify-center flex gap-2" >
+              <li className="flex h-full w-fit items-center justify-center gap-2">
                 <Link
                   to={"/"}
                   // href="index.html"
@@ -41,8 +41,12 @@ function Navbar() {
                 >
                   PRABHAT.
                 </Link>
-                <a href="https://drive.google.com/file/d/1-31m1wbfBMLbaldv2zlvQMMJPOlkYP1L/view?usp=drivesdk" target="_blank" title="View Resume">
-                <HiOutlineClipboardDocumentList className="h-7 w-7 cursor-pointer rounded-md fill-dark-blue p-1 text-wht transition-all duration-300 hover:bg-wht hover:fill-wht hover:text-dark-blue " />
+                <a
+                  href="https://drive.google.com/file/d/1-X8iRlPND1nVpYDv6u9VYOqVzE06RvKK/view?usp=drivesdk"
+                  target="_blank"
+                  title="View Resume"
+                >
+                  <HiOutlineClipboardDocumentList className="h-7 w-7 cursor-pointer rounded-md fill-dark-blue p-1 text-wht transition-all duration-300 hover:bg-wht hover:fill-wht hover:text-dark-blue " />
                 </a>
               </li>
               <li
@@ -71,20 +75,20 @@ function Navbar() {
                 </Link>
               </li>
               <li>
-                  <Link
-                    to={`/`}
-                    // href={`#${item}`}
-                    onClick={() => setActiveFilter("")}
-                    className={`cursor-pointer rounded font-poppins text-xs font-medium ${
-                      activeFilter === ""
-                        ? "bg-white px-1.5 py-0.5 text-sm font-semibold text-indigo-800 "
-                        : "hover:bg-white hover:px-1.5 hover:py-0.5 hover:text-sm hover:font-semibold hover:text-indigo-800"
-                    } text-center leading-6 transition-all duration-500 `}
-                  >
-                    Home
-                  </Link>
-                </li>
-              {[ "About", "Technologies", "Projects"].map((item, index) => (
+                <Link
+                  to={`/`}
+                  // href={`#${item}`}
+                  onClick={() => setActiveFilter("")}
+                  className={`cursor-pointer rounded font-poppins text-xs font-medium ${
+                    activeFilter === ""
+                      ? "bg-white px-1.5 py-0.5 text-sm font-semibold text-indigo-800 "
+                      : "hover:bg-white hover:px-1.5 hover:py-0.5 hover:text-sm hover:font-semibold hover:text-indigo-800"
+                  } text-center leading-6 transition-all duration-500 `}
+                >
+                  Home
+                </Link>
+              </li>
+              {["About", "Technologies", "Projects"].map((item, index) => (
                 <li key={index}>
                   <Link
                     to={`/${item}`}
@@ -102,7 +106,11 @@ function Navbar() {
               ))}
             </ul>
             <ul className="flex h-full items-center justify-center gap-3 ">
-              <a href="https://drive.google.com/file/d/1-31m1wbfBMLbaldv2zlvQMMJPOlkYP1L/view?usp=drivesdk" target="_blank" title="View Resume">
+              <a
+                href="https://drive.google.com/file/d/1-X8iRlPND1nVpYDv6u9VYOqVzE06RvKK/view?usp=drivesdk"
+                target="_blank"
+                title="View Resume"
+              >
                 <HiOutlineClipboardDocumentList className="h-7 w-7 cursor-pointer rounded-md fill-dark-blue p-1 text-wht transition-all duration-500 hover:bg-wht hover:fill-wht hover:text-dark-blue " />
               </a>
               <li>
@@ -131,20 +139,20 @@ function Navbar() {
           } border-b-8 border-wht transition-all duration-500 `}
         >
           <Link
-              to={`/`}
-              onClick={() => {
-                setActiveFilter('');
-                setToggle(!toggle);
-              }}
-              className={`cursor-pointer rounded font-poppins text-sm font-medium uppercase ${
-                activeFilter === ""
-                  ? "bg-white px-1.5 py-0.5 text-sm font-semibold text-indigo-800 "
-                  : "hover:bg-white hover:px-1.5 hover:py-0.5 hover:text-sm hover:font-semibold hover:text-indigo-800"
-              } text-center leading-6 transition-all duration-300 ${
-                toggle ? "visible" : "invisible"
-              } `}
-            >
-              Home
+            to={`/`}
+            onClick={() => {
+              setActiveFilter("");
+              setToggle(!toggle);
+            }}
+            className={`cursor-pointer rounded font-poppins text-sm font-medium uppercase ${
+              activeFilter === ""
+                ? "bg-white px-1.5 py-0.5 text-sm font-semibold text-indigo-800 "
+                : "hover:bg-white hover:px-1.5 hover:py-0.5 hover:text-sm hover:font-semibold hover:text-indigo-800"
+            } text-center leading-6 transition-all duration-300 ${
+              toggle ? "visible" : "invisible"
+            } `}
+          >
+            Home
           </Link>
           {["About", "Technologies", "Projects"].map((item, index) => (
             <Link
@@ -210,7 +218,7 @@ function Navbar() {
                   toggle ? "visible" : "invisible"
                 } bg-dark-blue p-1 text-3xl transition-all duration-300 hover:scale-105 hover:bg-orange-600`}
               />
-            </a>     
+            </a>
             <a href="https://www.instagram.com/prab_hat18/" target="_blank">
               <BsInstagram
                 className={`cursor-pointer rounded ${
@@ -226,10 +234,10 @@ function Navbar() {
               />
             </a>
           </div>
-          <div className='fixed bottom-0 z-50 rounded-sm' >
-          <strong className={`text-xxs font-poppins font-normal text-wht `} >
-          © 2023 Prabhat | All rights reserved
-          </strong>
+          <div className="fixed bottom-0 z-50 rounded-sm">
+            <strong className={`font-poppins text-xxs font-normal text-wht `}>
+              © 2023 Prabhat | All rights reserved
+            </strong>
           </div>
         </div>
       </section>
