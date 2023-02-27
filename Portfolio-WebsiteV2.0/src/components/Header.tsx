@@ -51,7 +51,7 @@ const Header = () => {
 
           <div className="hidden h-full w-full items-center justify-center pb-14  lg:flex lg:w-1/2">
             <span>
-              <img src={HeroImg} alt="Hero image" />
+              <img src={HeroImg} className="min-w-full" alt="Hero image" />
             </span>
           </div>
           <div className="fixed bottom-0 left-1 hidden rounded-sm md:flex">
