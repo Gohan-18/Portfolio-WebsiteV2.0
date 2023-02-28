@@ -3,7 +3,7 @@ export const projects = [
     title: "Personal Portfolio Website v2.0",
     date: "Mar 2023",
     description:
-      "A developer portfolio is very crucial for any developer in modern age. So, Created this new and revamped developer portfolio to show my experience and development journey. It is built upon taking clues from my first porfolio website using React and Typescript, used Tailwind CSS for the UI part and context API to manage state throughout the website.  Contact me if you are looking for a React Front-End developer who can help you in making beautiful website(s) like this one. And yeah... last but not the least, Thanks for visiting. Cheers!!",
+      "A developer portfolio is very crucial for any developer in modern age. So, created this new and revamped developer portfolio to show my experience and development journey. It is built upon taking clues from my first porfolio website using React and Typescript, used Tailwind CSS for the UI part and context API to manage state throughout the website.  Contact me if you are looking for a React Front-End developer who can help you in making beautiful website(s) like this one. And yeah... last but not the least, Thanks for visiting. Cheers!!",
     techStack: [
       "React",
       "Typescript",

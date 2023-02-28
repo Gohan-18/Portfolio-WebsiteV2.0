@@ -35,7 +35,7 @@ const Header = () => {
               I'm <span className="text-orange-400 ">Prabhat</span> , a
               Full-Stack{" "}
               <span title="MongoDB ExpressJS React NodeJs">MERN</span> web
-              developer with experties in Front-End webapp development.
+              developer with expertise in Front-End webapp development.
             </h3>
             <h3 className="animate__animated animate__fadeInDown animate__delay-2s  max-w-md pb-5 text-center font-poppins text-sm font-bold capitalize leading-6 text-violet-200 md:text-lg lg:text-start">
               This website holds information about my web development journey
