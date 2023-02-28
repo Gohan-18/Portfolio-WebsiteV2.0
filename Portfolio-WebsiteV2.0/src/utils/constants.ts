@@ -21,7 +21,7 @@ export const projects = [
     title: "Aurórá - An Online YouTube Video Player",
     date: "Feb 2023",
     description:
-      "Aurórá - an online YouTube video player made using ReactJs and Material UI v5. It uses YouTube API to fetch YouTube videos and channels. Users can search for their favourite creator's channel and videos, play them and can also login through super fast and reliable Firebase's Google authentication, add videos to the watchlist to save them from hassle of searching that favourite video again in future to watch, and login from any device to access their watchlist(Firestore's amazing!! Isn't it!!?). The WebApp has minimal design and UI is kept similar to YouTube's UI so that the users don't get lost in figuring out how to play/pause a video instead of enjoying them. Chreers!!",
+      "Aurórá - an online YouTube video player made using ReactJs and Material UI v5. It uses YouTube API to fetch YouTube videos and channels. Users can search for their favourite creator's channel and videos, play them and can also login through super fast and reliable Firebase's Google authentication, add videos to the watchlist to save them from hassle of searching that favourite video again in future to watch, and login from any device to access their watchlist(Firestore's amazing!! Isn't it!!?). The WebApp has minimal design and UI is kept similar to YouTube's UI so that the users don't get lost in figuring out how to play/pause a video instead of enjoying them. Cheers!!",
     techStack: [
       "React",
       "Javascript",
