@@ -11,10 +11,12 @@ export const projects = [
       "Context API",
       "HTML",
       "NodeJs",
+      "Formspree",
       "Vite",
     ],
     liveLink: "https://prabhat-devportfolio-v2.netlify.app/",
-    gitHubLink: "https://github.com/Gohan-18/Portfolio-WebsiteV2.0/tree/main/Portfolio-WebsiteV2.0",
+    gitHubLink:
+      "https://github.com/Gohan-18/Portfolio-WebsiteV2.0/tree/main/Portfolio-WebsiteV2.0",
     youtubeLink: "https://youtu.be/csfWQGAJfao",
   },
   {
@@ -90,16 +92,17 @@ export const miniProjects = [
       "https://prabhat-portfolio-18.netlify.app/projects/simple-weather/index.html",
     githubLink:
       "https://github.com/Gohan-18/Web-development/tree/master/Portfolio%20website/projects/simple-weather",
+    techStack: ["HTML5", "CSS3", "Javascript", "OpenWeatherMap API"],
   },
   {
     title: "Portfolio Website v1.0",
     date: "Oct 2022",
     description:
       "My first personal portfolio website, created as a part of NeoGcamp assignment to show my dev career to the people and was made using HTML, CSS and vanilla Javascript. This is the base upon which i improved and created this v2.0.",
-    liveLink:
-      "https://prabhat-portfolio-18.netlify.app/index.html",
+    liveLink: "https://prabhat-portfolio-18.netlify.app/index.html",
     githubLink:
       "https://github.com/Gohan-18/Web-development/tree/master/Portfolio%20website/",
+    techStack: ["HTML5", "CSS3", "Javascript"],
   },
   {
     title: "Calculator App",
@@ -110,6 +113,7 @@ export const miniProjects = [
       "https://prabhat-portfolio-18.netlify.app/projects/Simple-Calculator/index.html",
     githubLink:
       "https://github.com/Gohan-18/Web-development/tree/master/Portfolio%20website/projects/Simple-Calculator",
+    techStack: ["HTML5", "CSS3", "Javascript"],
   },
   {
     title: "Random Color Flipper",
@@ -120,6 +124,7 @@ export const miniProjects = [
       "https://prabhat-portfolio-18.netlify.app/projects/RandomColorFlipper/index.html",
     githubLink:
       "https://github.com/Gohan-18/Web-development/tree/master/Portfolio%20website/projects/RandomColorFlipper",
+    techStack: ["HTML5", "CSS3", "Javascript"],
   },
   {
     title: "Basic Counter App",
@@ -130,6 +135,7 @@ export const miniProjects = [
       "https://prabhat-portfolio-18.netlify.app/projects/simple-counter/index.html",
     githubLink:
       "https://github.com/Gohan-18/Web-development/tree/master/Portfolio%20website/projects/simple-counter",
+    techStack: ["HTML5", "CSS3", "Javascript"],
   },
   {
     title: "NeoGcamp Minions Translator",
@@ -140,5 +146,6 @@ export const miniProjects = [
       "https://prabhat-portfolio-18.netlify.app/projects/Banana-NeoGcamp/index.html",
     githubLink:
       "https://github.com/Gohan-18/Web-development/tree/master/Portfolio%20website/projects/Banana-NeoGcamp",
+    techStack: ["HTML5", "CSS3", "Javascript"],
   },
 ];

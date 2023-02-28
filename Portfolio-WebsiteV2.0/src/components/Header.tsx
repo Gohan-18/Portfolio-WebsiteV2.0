@@ -14,16 +14,16 @@ const Header = () => {
   // bg-small-screen-banner sm:bg-bubble-bg
   return (
     <>
-      <section className="z-5 animate__animated animate__fadeIn flex h-screen w-full flex-wrap justify-center bg-polygon-bg object-cover  bg-no-repeat px-4 lg:px-14">
+      <section className="z-5 animate__animated animate__fadeIn flex h-screen w-full flex-wrap justify-center heroImage px-4 lg:px-14">
         <section className="flex max-w-7xl w-full justify-center ">
           <div className="padding-top mt-20 flex w-full flex-col  items-center justify-start pb-10 md:mt-10 lg:mt-20 lg:w-1/2 lg:items-start lg:justify-center lg:pt-2">
-            <div className="animate__animated animate__fadeInDown flex w-full flex-col items-center justify-center bg-dark-blue lg:items-start ">
+            <div className="animate__animated animate__fadeInDown flex w-fit flex-col items-center justify-center bg-dark-blue lg:items-start ">
               <h2 className="hero-text w-full max-w-md border-b-2 text-center font-catamaran text-lg font-black uppercase leading-8 text-white shadow-black drop-shadow-lg md:pb-1 md:text-2xl lg:w-fit lg:pb-0 lg:text-start lg:leading-10">
                 {`< Namasté world />`}
               </h2>
               {/* <h2 className=" line-throug w-fit pt-16 font-poppins text-sm font-medium uppercase leading-6 text-orange-400 shadow-black drop-shadow-lg">
               {`< Hello world />`}
-            </h2> */}
+              </h2> */}
               <h2 className="hero-text w-full max-w-md pt-2 text-center font-catamaran text-3xl font-black uppercase leading-8 text-white shadow-black drop-shadow-lg md:text-4xl lg:text-start lg:leading-10">
                 Welcome to my
               </h2>
@@ -37,7 +37,7 @@ const Header = () => {
               <span title="MongoDB ExpressJS React NodeJs">MERN</span> web
               developer with experties in Front-End webapp development.
             </h3>
-            <h3 className="animate__animated animate__fadeInDown animate__delay-2s max-w-md pb-5 text-center font-poppins text-sm font-bold capitalize leading-6 text-violet-200 md:text-lg lg:text-start">
+            <h3 className="animate__animated animate__fadeInDown animate__delay-2s  max-w-md pb-5 text-center font-poppins text-sm font-bold capitalize leading-6 text-violet-200 md:text-lg lg:text-start">
               This website holds information about my web development journey
               and the projects i have made till now.
             </h3>
