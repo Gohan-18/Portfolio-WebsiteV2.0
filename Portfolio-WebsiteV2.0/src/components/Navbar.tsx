@@ -42,7 +42,7 @@ function Navbar() {
                   PRABHAT.
                 </Link>
                 <a
-                  href="https://drive.google.com/file/d/1-X8iRlPND1nVpYDv6u9VYOqVzE06RvKK/view?usp=drivesdk"
+                  href="https://drive.google.com/file/d/1-7TipPNjOm5WlQFdOTCrLwOC8dq8yOx_/view?usp=drivesdk"
                   target="_blank"
                   title="View Resume"
                 >
@@ -107,7 +107,7 @@ function Navbar() {
             </ul>
             <ul className="flex h-full items-center justify-center gap-3 ">
               <a
-                href="https://drive.google.com/file/d/1-X8iRlPND1nVpYDv6u9VYOqVzE06RvKK/view?usp=drivesdk"
+                href="https://drive.google.com/file/d/1-7TipPNjOm5WlQFdOTCrLwOC8dq8yOx_/view?usp=drivesdk"
                 target="_blank"
                 title="View Resume"
               >
