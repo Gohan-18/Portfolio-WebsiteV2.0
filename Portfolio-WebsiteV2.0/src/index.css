@@ -35,6 +35,11 @@ body {
   /* background-color: #1f1a4d; */
 }
 
+.heroImage {
+  background-image: url('./assets/BG-Polygon.png');
+  object-fit: cover;
+}
+
 .padding-top {
   padding-top: 120px;
 }

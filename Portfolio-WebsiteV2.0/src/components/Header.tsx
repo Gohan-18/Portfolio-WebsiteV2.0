@@ -14,7 +14,7 @@ const Header = () => {
   // bg-small-screen-banner sm:bg-bubble-bg
   return (
     <>
-      <section className="z-5 animate__animated animate__fadeIn flex h-screen w-full flex-wrap justify-center bg-dark-blue  bg-no-repeat px-4 lg:px-14">
+      <section className="z-5 animate__animated animate__fadeIn flex h-screen w-full flex-wrap justify-center heroImage bg-dark-blue  bg-no-repeat px-4 lg:px-14">
         <section className="flex max-w-7xl w-full justify-center ">
           <div className="padding-top mt-20 flex w-full flex-col  items-center justify-start pb-10 md:mt-10 lg:mt-20 lg:w-1/2 lg:items-start lg:justify-center lg:pt-2">
             <div className="animate__animated animate__fadeInDown flex w-full flex-col items-center justify-center bg-dark-blue lg:items-start ">

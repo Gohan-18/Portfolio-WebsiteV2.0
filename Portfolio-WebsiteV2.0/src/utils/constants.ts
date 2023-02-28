@@ -1,9 +1,27 @@
 export const projects = [
   {
-    title: "Aurórá - An online YouTube Video Player",
+    title: "Personal Portfolio Website v2.0",
+    date: "Mar 2023",
+    description:
+      "A developer portfolio is very critical for any developer in modern age. So, Created this new and revamped developer portfolio to show my experience and development journey. It is built upon taking clues from my first porfolio website using React and Typescript, used Tailwind CSS for the UI part and context API to manage state throughout the website.  Contact me if you are looking for a React Front-End developer who can help you in making beautiful website(s) like this one. And yeah... last but not the least, Thanks for visiting. Cheers!!",
+    techStack: [
+      "React",
+      "Typescript",
+      "Tailwind CSS",
+      "Context API",
+      "HTML",
+      "NodeJs",
+      "Vite",
+    ],
+    liveLink: "https://prabhat-devportfolio-v2.netlify.app/",
+    gitHubLink: "https://github.com/Gohan-18/Portfolio-WebsiteV2.0/tree/main/Portfolio-WebsiteV2.0",
+    youtubeLink: "https://youtu.be/csfWQGAJfao",
+  },
+  {
+    title: "Aurórá - An Online YouTube Video Player",
     date: "Feb 2023",
     description:
-      "Aurórá - an online YouTube video player made using ReactJs and Material UI v5. It uses YouTube API to fetch YouTube videos and channels. Users can search for their favourite creator's channel and videos, play them and can also login through super fast and reliable Firebase's Google authentication, add videos to the watchlist to save them from hassle of searching that favourite video again in future to watch, and login from any device to access their watchlist(Firestore's amazing!! Isn't it!!?). The WebApp has minimal design and UI is kept similar to YouTube's UI so that the users don't get lost in figuring out how to play/pause a video instead of enjoying them. Chreers!",
+      "Aurórá - an online YouTube video player made using ReactJs and Material UI v5. It uses YouTube API to fetch YouTube videos and channels. Users can search for their favourite creator's channel and videos, play them and can also login through super fast and reliable Firebase's Google authentication, add videos to the watchlist to save them from hassle of searching that favourite video again in future to watch, and login from any device to access their watchlist(Firestore's amazing!! Isn't it!!?). The WebApp has minimal design and UI is kept similar to YouTube's UI so that the users don't get lost in figuring out how to play/pause a video instead of enjoying them. Chreers!!",
     techStack: [
       "React",
       "Javascript",
@@ -21,7 +39,7 @@ export const projects = [
     youtubeLink: "https://youtu.be/7IwrTuV17l0",
   },
   {
-    title: "ShopMore - An online Marketplace",
+    title: "ShopMore - An Online Marketplace",
     date: "Jan 2023",
     description:
       "ShopMore - an E-Commerce website made using ReactJs and Material UI v5. The user can search for the product through searchbar, add them to cart/wishlist and checkout from the cart. Before checkout, they'll have to login as checkout page is protected using Protected Route. (Note - Followed along DevsNest Youtube bootcamp to make base of the WebApp). Features added by me : Responsivness for smaller devices, Bottom Navigation, Entire My Account section, add/remove from Wishlist functionality, user profile viewer, Last Order detail page, Contact Me section, Single Product Detail page. Guest user Login credentials : Email id - robin187@gmail.com, Password - robin1234.",
@@ -51,7 +69,7 @@ export const projects = [
     youtubeLink: "https://youtu.be/MxoY7u7_6Qc",
   },
   {
-    title: "Chróma - An Image Searching App",
+    title: "Chróma - An Image Searching WebApp",
     date: "Nov 2022",
     description:
       "Chróma is an image searching webApp made with HTML, CSS and vanilla JavaScript. Here the user can search for any image of their liking by typing the desired keyword in the input box on the home page. After the user types and searches for any keyword, the webapp takes user to the search page where then it shows the searched result. It uses UnSplash API to fetch the searched image and show it to the user.",
