@@ -1,5 +1,25 @@
 export const projects = [
   {
+    title: "Andro/Setup - Get your Android homescreen customised",
+    date: "May 2023",
+    description: "Andro/Setup is a website dedicated to helping Android users transform their home screens into personalized and visually stunning setups. It was a pet project i started in college as a hobby, sharing a new customised android homescreen setup each Sunday on my Instagram page. Those days had issue like people asking for wallpaer and other resource's link in DM, and had to share each one individually. Now turned it into a website, so user can just browse and download resources directly. It offers a curated collection of custom-made Android home screen styles, created by me. The website provides detailed setup instructions, including wallpapers, icon packs, widgets, and launchers used in each design. Users can browse through different styles, find inspiration, and easily customize their own setups. ",
+    techStack: [
+      "React",
+      "JavaScript",
+      "Material UI",
+      "GraphQL",
+      "Context API",
+      "HTML",
+      "NodeJs",
+      "Formspree",
+      "Vite",
+    ],
+    liveLink: "https://andro-setup.netlify.app/",
+    gitHubLink:
+      "https://github.com/Gohan-18/Andro-Setup/tree/main/Andro-Setup",
+    youtubeLink: "https://youtu.be/csfWQGAJfao",
+  },
+  {
     title: "Personal Portfolio Website v2.0",
     date: "Mar 2023",
     description:

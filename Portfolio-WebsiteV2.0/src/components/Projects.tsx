@@ -36,7 +36,7 @@ const Projects = () => {
                       title="Live Project"
                       href={item.liveLink}
                       target="_blank"
-                      className="font-poppins text-base font-semibold text-slate-700 transition-all duration-500 hover:text-orange-500 sm:text-lg "
+                      className="font-poppins capitalize text-base font-semibold text-slate-700 transition-all duration-500 hover:text-orange-500 sm:text-lg "
                     >
                       {item.title}{" "}
                     </a>
