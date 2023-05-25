@@ -3,6 +3,7 @@ import ReactPlayer from "react-player";
 import { AppContext } from "../App";
 import { miniProjects, projects } from "../utils/constants";
 import { AiFillGithub } from "react-icons/ai";
+import { AiOutlineLink  } from "react-icons/ai";
 
 const Projects = () => {
   const { setActiveFilter } = useContext(AppContext);
@@ -39,14 +40,24 @@ const Projects = () => {
                     >
                       {item.title}{" "}
                     </a>
+                    <span className="flex items-center justify-start gap-2 w-full" >
                     <a
-                      className="flex h-fit w-fit "
+                      className="flex h-fit w-fit"
+                      title="Live Project"
+                      href={item.liveLink}
+                      target="_blank"
+                    >
+                      <AiOutlineLink className="cursor-pointer rounded-full text-slate-600 transition-all duration-500 hover:text-orange-500 " />
+                    </a>
+                    <a
+                      className="flex h-fit w-fit"
                       title="GitHub"
                       href={item.gitHubLink}
                       target="_blank"
                     >
                       <AiFillGithub className="h-4 w-8 cursor-pointer rounded-full bg-slate-600 p-0.5 text-wht transition-all duration-500 hover:bg-orange-500 " />{" "}
                     </a>
+                    </span>
                   </div>
                   <span className=" pb-1 font-poppins text-xs font-medium text-blue">
                     {item.date}
