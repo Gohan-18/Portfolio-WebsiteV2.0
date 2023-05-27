@@ -9,6 +9,7 @@ export const projects = [
       "JavaScript",
       "Material UI",
       "GraphQL",
+      "HygraphCMS",
       "Context API",
       "HTML",
       "NodeJs",
