@@ -13,6 +13,7 @@ export const projects = [
       "Context API",
       "HTML",
       "NodeJs",
+      "Figma",
       "Formspree",
       "Vite",
     ],
